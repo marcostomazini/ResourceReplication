@@ -1,0 +1,4045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Botao_Alterar" xml:space="preserve">
+    <value>Espanhol - Alterar</value>
+  </data>
+  <data name="Botao_Excluir" xml:space="preserve">
+    <value>Espanhol - Excluir</value>
+  </data>
+  <data name="Botao_Inserir" xml:space="preserve">
+    <value>Espanhol - Inserir</value>
+  </data>
+  <data name="Caracteristica" xml:space="preserve">
+    <value>Espanhol - Característica</value>
+  </data>
+  <data name="CategoriaEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Categoria de Equipamento Especial</value>
+  </data>
+  <data name="CategoriaVeiculo" xml:space="preserve">
+    <value>Espanhol - Categoria de Veículo</value>
+  </data>
+  <data name="CentroCusto" xml:space="preserve">
+    <value>Espanhol - Centro de Custo</value>
+  </data>
+  <data name="Classificacao" xml:space="preserve">
+    <value>Espanhol - Classificação</value>
+  </data>
+  <data name="Descricao" xml:space="preserve">
+    <value>Espanhol - Descrição</value>
+  </data>
+  <data name="ComponenteEquipe" xml:space="preserve">
+    <value>Espanhol - Componente de Equipe</value>
+  </data>
+  <data name="Contador" xml:space="preserve">
+    <value>Espanhol - Contador</value>
+  </data>
+  <data name="ContratoPrestadora" xml:space="preserve">
+    <value>Espanhol - Contrato Prestadora</value>
+  </data>
+  <data name="Deposito" xml:space="preserve">
+    <value>Espanhol - Depósito</value>
+  </data>
+  <data name="Dia_Semana_Domingo" xml:space="preserve">
+    <value>Espanhol - Domingo</value>
+  </data>
+  <data name="Dia_Semana_Quarta" xml:space="preserve">
+    <value>Espanhol - Quarta</value>
+  </data>
+  <data name="Dia_Semana_Quinta" xml:space="preserve">
+    <value>Espanhol - Quinta</value>
+  </data>
+  <data name="Dia_Semana_Sabado" xml:space="preserve">
+    <value>Espanhol - Sábado</value>
+  </data>
+  <data name="Dia_Semana_Segunda" xml:space="preserve">
+    <value>Espanhol - Segunda</value>
+  </data>
+  <data name="Dia_Semana_Sexta" xml:space="preserve">
+    <value>Espanhol - Sexta</value>
+  </data>
+  <data name="Dia_Semana_Terca" xml:space="preserve">
+    <value>Espanhol - Terça</value>
+  </data>
+  <data name="EmpresaPrestadora" xml:space="preserve">
+    <value>Espanhol - Empresa Prestadora</value>
+  </data>
+  <data name="EquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Equipamento Especial</value>
+  </data>
+  <data name="Arquivos" xml:space="preserve">
+    <value>Espanhol - Arquivos</value>
+  </data>
+  <data name="Ativos" xml:space="preserve">
+    <value>Espanhol - Ativos</value>
+  </data>
+  <data name="Equipamento" xml:space="preserve">
+    <value>Espanhol - Equipamento</value>
+  </data>
+  <data name="CalculoAutoGarantia" xml:space="preserve">
+    <value>Espanhol - Cálculo Automático</value>
+  </data>
+  <data name="Custo" xml:space="preserve">
+    <value>Espanhol - Custo</value>
+  </data>
+  <data name="DadosOrigem" xml:space="preserve">
+    <value>Espanhol - Dados de Origem</value>
+  </data>
+  <data name="DadosTecnicos" xml:space="preserve">
+    <value>Espanhol - Dados Técnicos</value>
+  </data>
+  <data name="DataOperacao" xml:space="preserve">
+    <value>Espanhol - Entrada em Operação</value>
+  </data>
+  <data name="Fabricacao" xml:space="preserve">
+    <value>Espanhol - Fabricação</value>
+  </data>
+  <data name="Fabricante" xml:space="preserve">
+    <value>Espanhol - Fabricante</value>
+  </data>
+  <data name="Familia" xml:space="preserve">
+    <value>Espanhol - Família</value>
+  </data>
+  <data name="Garantia" xml:space="preserve">
+    <value>Espanhol - Garantia</value>
+  </data>
+  <data name="GarantiaEstoque" xml:space="preserve">
+    <value>Espanhol - Garantia em Estoque</value>
+  </data>
+  <data name="GarantiaOperacao" xml:space="preserve">
+    <value>Espanhol - Garantia em Operação</value>
+  </data>
+  <data name="EquipamentoSuperior" xml:space="preserve">
+    <value>Espanhol - Equipamento Superior</value>
+  </data>
+  <data name="InicioGarantia" xml:space="preserve">
+    <value>Espanhol - Início Garantia</value>
+  </data>
+  <data name="Localizacao" xml:space="preserve">
+    <value>Espanhol - Localização</value>
+  </data>
+  <data name="NoPatrimonio" xml:space="preserve">
+    <value>Espanhol - Nº Patrimônio</value>
+  </data>
+  <data name="NumeroSerie" xml:space="preserve">
+    <value>Espanhol - Número Série</value>
+  </data>
+  <data name="Organizacao" xml:space="preserve">
+    <value>Espanhol - Organização</value>
+  </data>
+  <data name="Patrimonio" xml:space="preserve">
+    <value>Espanhol - Patrimônio</value>
+  </data>
+  <data name="Sigma" xml:space="preserve">
+    <value>Espanhol - Sigma</value>
+  </data>
+  <data name="Subequipamentos" xml:space="preserve">
+    <value>Espanhol - Subequipamentos</value>
+  </data>
+  <data name="TerminoGarantia" xml:space="preserve">
+    <value>Espanhol - Término Garantia</value>
+  </data>
+  <data name="Equipe" xml:space="preserve">
+    <value>Espanhol - Equipe</value>
+  </data>
+  <data name="Especialidade" xml:space="preserve">
+    <value>Espanhol - Especialidade</value>
+  </data>
+  <data name="Especialidade_Detalhes" xml:space="preserve">
+    <value>Espanhol - Detalhes</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Espanhol - Estado</value>
+  </data>
+  <data name="ConfiguracoesEmpresa" xml:space="preserve">
+    <value>Espanhol - Configurações da Empresa</value>
+  </data>
+  <data name="HorarioDescansoSemana" xml:space="preserve">
+    <value>Espanhol - Horário de Descanso Semanal</value>
+  </data>
+  <data name="HorarioJornadaTrabalho" xml:space="preserve">
+    <value>Espanhol - Horário da Jornada de Trabalho</value>
+  </data>
+  <data name="DiasTrabalhoSemana" xml:space="preserve">
+    <value>Espanhol - Dias de trabalho na semana</value>
+  </data>
+  <data name="Global" xml:space="preserve">
+    <value>Espanhol - Global</value>
+  </data>
+  <data name="EmpresaUtilizaPVI" xml:space="preserve">
+    <value>Espanhol - Empresa utiliza PVI</value>
+  </data>
+  <data name="HabilitarSigma" xml:space="preserve">
+    <value>Espanhol - Habilitar Sigma</value>
+  </data>
+  <data name="HorarioDescansoFinal" xml:space="preserve">
+    <value>Espanhol - Horário de Descanso Final</value>
+  </data>
+  <data name="HorarioDescansoInicial" xml:space="preserve">
+    <value>Espanhol - Horário de Descanso Inicial</value>
+  </data>
+  <data name="HorarioJornadaFinal" xml:space="preserve">
+    <value>Espanhol - Horário da Jornada Final</value>
+  </data>
+  <data name="HorarioJornadaInicial" xml:space="preserve">
+    <value>Espanhol - Horário da Jornada Inicial</value>
+  </data>
+  <data name="JornadaTrabalho" xml:space="preserve">
+    <value>Espanhol - Jornada de Trabalho</value>
+  </data>
+  <data name="GlobalEmpresaSigma" xml:space="preserve">
+    <value>Espanhol - Nome Empresa Sigma</value>
+  </data>
+  <data name="PassoMinutos" xml:space="preserve">
+    <value>Espanhol - Passo em Minutos</value>
+  </data>
+  <data name="StringConexao" xml:space="preserve">
+    <value>Espanhol - String de Conexão</value>
+  </data>
+  <data name="TestarConexao" xml:space="preserve">
+    <value>Espanhol - Testar Conexão</value>
+  </data>
+  <data name="ValidaUtilizacaoEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Valida utilização do equipamento especial</value>
+  </data>
+  <data name="ValidaUtilizacaoMaoObra" xml:space="preserve">
+    <value>Espanhol - Valida utilização da mão de obra</value>
+  </data>
+  <data name="ValidaUtilizacaoMaterial" xml:space="preserve">
+    <value>Espanhol - Valida utilização do material</value>
+  </data>
+  <data name="ValidaUtilizacaoVeiculo" xml:space="preserve">
+    <value>Espanhol - Valida utilização do veiculo</value>
+  </data>
+  <data name="GrupoCaracteristica" xml:space="preserve">
+    <value>Espanhol - Grupo de Característica</value>
+  </data>
+  <data name="ListaAtividade" xml:space="preserve">
+    <value>Espanhol - Lista de Atividade</value>
+  </data>
+  <data name="Cep" xml:space="preserve">
+    <value>Espanhol - CEP</value>
+  </data>
+  <data name="CoordenadaX" xml:space="preserve">
+    <value>Espanhol - Coordenada X</value>
+  </data>
+  <data name="CoordenadaY" xml:space="preserve">
+    <value>Espanhol - Coordenada Y</value>
+  </data>
+  <data name="Endereco" xml:space="preserve">
+    <value>Espanhol - Endereço</value>
+  </data>
+  <data name="ParcelaVariavelIndisponibilidade" xml:space="preserve">
+    <value>Espanhol - Parcela Variável por Indisponibilidade (PVI)</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>Espanhol - ID</value>
+  </data>
+  <data name="EntradaOperacao" xml:space="preserve">
+    <value>Espanhol - Entrada em Operação</value>
+  </data>
+  <data name="InstalacaoFisica" xml:space="preserve">
+    <value>Espanhol - Instalação Física</value>
+  </data>
+  <data name="Municipio" xml:space="preserve">
+    <value>Espanhol - Município</value>
+  </data>
+  <data name="Responsavel" xml:space="preserve">
+    <value>Espanhol - Responsável</value>
+  </data>
+  <data name="Material" xml:space="preserve">
+    <value>Espanhol - Material</value>
+  </data>
+  <data name="EstoqueMedio" xml:space="preserve">
+    <value>Espanhol - Estoque Médio</value>
+  </data>
+  <data name="Menu_AlterarSenha" xml:space="preserve">
+    <value>Espanhol - Alterar Senha</value>
+  </data>
+  <data name="Menu_Auxiliares" xml:space="preserve">
+    <value>Espanhol - Auxiliares</value>
+  </data>
+  <data name="Menu_Cadastro" xml:space="preserve">
+    <value>Espanhol - Cadastro</value>
+  </data>
+  <data name="Menu_CadastroTecnico" xml:space="preserve">
+    <value>Espanhol - Cadastro Técnico</value>
+  </data>
+  <data name="Menu_Idioma" xml:space="preserve">
+    <value>Espanhol - Idioma</value>
+  </data>
+  <data name="Menu_LogOut" xml:space="preserve">
+    <value>Espanhol - Sair</value>
+  </data>
+  <data name="Menu_Manutencao" xml:space="preserve">
+    <value>Espanhol - Manutenção</value>
+  </data>
+  <data name="Menu_MinhaConta" xml:space="preserve">
+    <value>Espanhol - Minha Conta</value>
+  </data>
+  <data name="MenuUsuario" xml:space="preserve">
+    <value>Espanhol - Nome de Usuário</value>
+  </data>
+  <data name="Menu_PlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Plano de Manutenção</value>
+  </data>
+  <data name="ModeloEquipamento" xml:space="preserve">
+    <value>Espanhol - Modelo de Equipamento</value>
+  </data>
+  <data name="MotivoManutencao" xml:space="preserve">
+    <value>Espanhol - Motivo de Manutenção</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>Espanhol - País</value>
+  </data>
+  <data name="ServicoPrestadora" xml:space="preserve">
+    <value>Espanhol - Serviço de Prestadora</value>
+  </data>
+  <data name="TipoManutencao" xml:space="preserve">
+    <value>Espanhol - Tipo de Manutenção</value>
+  </data>
+  <data name="UnidadeMedida" xml:space="preserve">
+    <value>Espanhol - Unidade de Medida</value>
+  </data>
+  <data name="Veiculo" xml:space="preserve">
+    <value>Espanhol - Veículo</value>
+  </data>
+  <data name="Ferias" xml:space="preserve">
+    <value>Espanhol - Férias</value>
+  </data>
+  <data name="GeralTitulo" xml:space="preserve">
+    <value>Espanhol - Geral</value>
+  </data>
+  <data name="Componente" xml:space="preserve">
+    <value>Espanhol - Componente</value>
+  </data>
+  <data name="EquipeGerencial" xml:space="preserve">
+    <value>Espanhol - Equipe Gerencial</value>
+  </data>
+  <data name="EquipeOperacional" xml:space="preserve">
+    <value>Espanhol - Equipe Operacional</value>
+  </data>
+  <data name="NivelSuperior" xml:space="preserve">
+    <value>Espanhol - Nível Superior</value>
+  </data>
+  <data name="Notificacoes" xml:space="preserve">
+    <value>Espanhol - Notificações</value>
+  </data>
+  <data name="Equipe_Valores" xml:space="preserve">
+    <value>Espanhol - Valores</value>
+  </data>
+  <data name="Unidade" xml:space="preserve">
+    <value>Espanhol - Unidade</value>
+  </data>
+  <data name="ValorFixo" xml:space="preserve">
+    <value>Espanhol - Valor Fixo</value>
+  </data>
+  <data name="Ano" xml:space="preserve">
+    <value>Espanhol - Ano</value>
+  </data>
+  <data name="CadastroTecnico" xml:space="preserve">
+    <value>Espanhol - Cadastro Técnico</value>
+  </data>
+  <data name="Dia" xml:space="preserve">
+    <value>Espanhol - Dia</value>
+  </data>
+  <data name="Ensaios" xml:space="preserve">
+    <value>Espanhol - Ensaios</value>
+  </data>
+  <data name="Feriado" xml:space="preserve">
+    <value>Espanhol - Feriado</value>
+  </data>
+  <data name="Funcionalidade" xml:space="preserve">
+    <value>Espanhol - Funcionalidade</value>
+  </data>
+  <data name="Mes" xml:space="preserve">
+    <value>Espanhol - Mês</value>
+  </data>
+  <data name="PlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Plano de Manutenção</value>
+  </data>
+  <data name="Relacao" xml:space="preserve">
+    <value>Espanhol - Relação</value>
+  </data>
+  <data name="Sigla" xml:space="preserve">
+    <value>Espanhol - Sigla</value>
+  </data>
+  <data name="Universal" xml:space="preserve">
+    <value>Espanhol - Universal</value>
+  </data>
+  <data name="Abreviatura" xml:space="preserve">
+    <value>Espanhol - Abreviatura</value>
+  </data>
+  <data name="Modelo" xml:space="preserve">
+    <value>Espanhol - Modelo</value>
+  </data>
+  <data name="EstruturaMascara" xml:space="preserve">
+    <value>Espanhol - Estrutura Máscara</value>
+  </data>
+  <data name="Mascara" xml:space="preserve">
+    <value>Espanhol - Máscara</value>
+  </data>
+  <data name="CodigoDeposito" xml:space="preserve">
+    <value>Espanhol - Código Depósito</value>
+  </data>
+  <data name="CodigoUnidade" xml:space="preserve">
+    <value>Espanhol - Código Unidade</value>
+  </data>
+  <data name="DescricaoDeposito" xml:space="preserve">
+    <value>Espanhol - Descrição Depósito</value>
+  </data>
+  <data name="DescricaoUnidade" xml:space="preserve">
+    <value>Espanhol - Descrição Unidade</value>
+  </data>
+  <data name="Estrutura" xml:space="preserve">
+    <value>Espanhol - Estrutura</value>
+  </data>
+  <data name="EstruturaManual" xml:space="preserve">
+    <value>Espanhol - Estrutura Manual</value>
+  </data>
+  <data name="FamiliaEquipamento" xml:space="preserve">
+    <value>Espanhol - Família Equipamento</value>
+  </data>
+  <data name="FamiliaLocalizacao" xml:space="preserve">
+    <value>Espanhol - Família Localização</value>
+  </data>
+  <data name="FamiliaPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Família Plano de Manutenção</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Espanhol - Tipo</value>
+  </data>
+  <data name="Cnpj" xml:space="preserve">
+    <value>Espanhol - CNPJ</value>
+  </data>
+  <data name="Contato" xml:space="preserve">
+    <value>Espanhol - Contato</value>
+  </data>
+  <data name="DomicilioFiscal" xml:space="preserve">
+    <value>Espanhol - Domicílio Fiscal</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Espanhol - Email</value>
+  </data>
+  <data name="InscricaoEstadual" xml:space="preserve">
+    <value>Espanhol - Inscrição Estadual</value>
+  </data>
+  <data name="Telefone_1" xml:space="preserve">
+    <value>Espanhol - Telefone 1</value>
+  </data>
+  <data name="Telefone_2" xml:space="preserve">
+    <value>Espanhol - Telefone 2</value>
+  </data>
+  <data name="Nome" xml:space="preserve">
+    <value>Espanhol - Nome</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Espanhol - Categoria</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Espanhol - Código</value>
+  </data>
+  <data name="CustoFixo" xml:space="preserve">
+    <value>Espanhol - Custo Fixo</value>
+  </data>
+  <data name="CustoVariavel" xml:space="preserve">
+    <value>Espanhol - Custo Variável</value>
+  </data>
+  <data name="CadastrarCaracteristica" xml:space="preserve">
+    <value>Espanhol - Cadastrar Característica</value>
+  </data>
+  <data name="CadastrarCategoriaEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Cadastrar Categoria de Equipamento Especial</value>
+  </data>
+  <data name="CadastrarCategoriaVeiculo" xml:space="preserve">
+    <value>Espanhol - Cadastrar Categoria de Veículo</value>
+  </data>
+  <data name="CadastrarCentroCusto" xml:space="preserve">
+    <value>Espanhol - Cadastrar Centro de Custo</value>
+  </data>
+  <data name="CadastrarComponenteEquipe" xml:space="preserve">
+    <value>Espanhol - Cadastrar Componente de Equipe</value>
+  </data>
+  <data name="CadastrarContador" xml:space="preserve">
+    <value>Espanhol - Cadastrar Contador</value>
+  </data>
+  <data name="CadastrarContratoPrestadora" xml:space="preserve">
+    <value>Espanhol - Cadastrar Contrato de Prestadora</value>
+  </data>
+  <data name="CadastrarDeposito" xml:space="preserve">
+    <value>Espanhol - Cadastrar Depósito</value>
+  </data>
+  <data name="CadastrarEmpresaPrestadoradora" xml:space="preserve">
+    <value>Espanhol - Cadastrar Empresa Prestadora</value>
+  </data>
+  <data name="CadastrarEquipamento" xml:space="preserve">
+    <value>Espanhol - Cadastrar Equipamento</value>
+  </data>
+  <data name="CadastrarEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Cadastrar Equipamento Especial</value>
+  </data>
+  <data name="CadastrarEquipe" xml:space="preserve">
+    <value>Espanhol - Cadastrar Equipe</value>
+  </data>
+  <data name="CadastrarEspecialidade" xml:space="preserve">
+    <value>Espanhol - Cadastrar Especialidade</value>
+  </data>
+  <data name="CadastrarEstado" xml:space="preserve">
+    <value>Espanhol - Cadastrar Estado</value>
+  </data>
+  <data name="CadastrarFabricante" xml:space="preserve">
+    <value>Espanhol - Cadastrar Fabricante</value>
+  </data>
+  <data name="CadastrarFamilia" xml:space="preserve">
+    <value>Espanhol - Cadastrar Família</value>
+  </data>
+  <data name="CadastrarGrupoCaracteristica" xml:space="preserve">
+    <value>Espanhol - Cadastrar Grupo de Característica</value>
+  </data>
+  <data name="CadastrarListaAtividade" xml:space="preserve">
+    <value>Espanhol - Cadastrar Lista de Atividade</value>
+  </data>
+  <data name="CadastrarLocalizacao" xml:space="preserve">
+    <value>Espanhol - Cadastrar Localização</value>
+  </data>
+  <data name="CadastrarMascara" xml:space="preserve">
+    <value>Espanhol - Cadastrar Máscara</value>
+  </data>
+  <data name="CadastrarMaterial" xml:space="preserve">
+    <value>Espanhol - Cadastrar Material</value>
+  </data>
+  <data name="CadastrarModeloEquipamento" xml:space="preserve">
+    <value>Espanhol - Cadastrar Modelo de Equipamento</value>
+  </data>
+  <data name="CadastrarMotivoManutencao" xml:space="preserve">
+    <value>Espanhol - Cadastrar Motivo de Manutenção</value>
+  </data>
+  <data name="CadastrarMunicipio" xml:space="preserve">
+    <value>Espanhol - Cadastrar Município</value>
+  </data>
+  <data name="CadastrarPais" xml:space="preserve">
+    <value>Espanhol - Cadastrar País</value>
+  </data>
+  <data name="CadastrarServicoPrestadora" xml:space="preserve">
+    <value>Espanhol - Cadastrar Serviço da Prestadora</value>
+  </data>
+  <data name="CadastrarTipoManutencao" xml:space="preserve">
+    <value>Espanhol - Cadastrar Tipo de Manutenção</value>
+  </data>
+  <data name="CadastrarUnidadeMedida" xml:space="preserve">
+    <value>Espanhol - Cadastrar Unidade de Medida</value>
+  </data>
+  <data name="CadastrarVeiculo" xml:space="preserve">
+    <value>Espanhol - Cadastrar Veículo</value>
+  </data>
+  <data name="EditarCaracteristica" xml:space="preserve">
+    <value>Espanhol - Editar Característica</value>
+  </data>
+  <data name="EditarCategoriaEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Editar Categoria de Equipamento Especial</value>
+  </data>
+  <data name="EditarCategoriaVeiculo" xml:space="preserve">
+    <value>Espanhol - Editar Categoria de Veículo</value>
+  </data>
+  <data name="EditarCentroCusto" xml:space="preserve">
+    <value>Espanhol - Editar Centro Custo</value>
+  </data>
+  <data name="EditarComponenteEquipe" xml:space="preserve">
+    <value>Espanhol - Editar Componente de Equipe</value>
+  </data>
+  <data name="EditarContador" xml:space="preserve">
+    <value>Espanhol - Editar Contador</value>
+  </data>
+  <data name="EditarContratoPrestadora" xml:space="preserve">
+    <value>Espanhol - Editar Contrato de Prestadora</value>
+  </data>
+  <data name="EditarDeposito" xml:space="preserve">
+    <value>Espanhol - Editar Depósito</value>
+  </data>
+  <data name="EditarEmpresaPrestadora" xml:space="preserve">
+    <value>Espanhol - Editar Empresa Prestadora</value>
+  </data>
+  <data name="EditarEquipamento" xml:space="preserve">
+    <value>Espanhol - Editar Equipamento</value>
+  </data>
+  <data name="EditarEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Editar Equipamento Especial</value>
+  </data>
+  <data name="EditarEquipe" xml:space="preserve">
+    <value>Espanhol - Editar Equipe</value>
+  </data>
+  <data name="EditarEspecialidade" xml:space="preserve">
+    <value>Espanhol - Editar Especialidade</value>
+  </data>
+  <data name="EditarEstado" xml:space="preserve">
+    <value>Espanhol - Editar Estado</value>
+  </data>
+  <data name="EditarFabricante" xml:space="preserve">
+    <value>Espanhol - Editar Fabricante</value>
+  </data>
+  <data name="EditarFamilia" xml:space="preserve">
+    <value>Espanhol - Editar Família</value>
+  </data>
+  <data name="EditarGrupoCaracteristica" xml:space="preserve">
+    <value>Espanhol - Editar Grupo de Característica</value>
+  </data>
+  <data name="EditarListaAtividade" xml:space="preserve">
+    <value>Espanhol - Editar Lista de Atividade</value>
+  </data>
+  <data name="EditarLocalizacao" xml:space="preserve">
+    <value>Espanhol - Editar Localização</value>
+  </data>
+  <data name="EditarMascara" xml:space="preserve">
+    <value>Espanhol - Editar Máscara</value>
+  </data>
+  <data name="EditarMaterial" xml:space="preserve">
+    <value>Espanhol - Editar Material</value>
+  </data>
+  <data name="EditarModeloEquipamento" xml:space="preserve">
+    <value>Espanhol - Editar Modelo de Equipamento</value>
+  </data>
+  <data name="EditarMotivoManutencao" xml:space="preserve">
+    <value>Espanhol - Editar Motivo Manutenção</value>
+  </data>
+  <data name="EditarMunicipio" xml:space="preserve">
+    <value>Espanhol - Editar Município</value>
+  </data>
+  <data name="EditarPais" xml:space="preserve">
+    <value>Espanhol - Editar País</value>
+  </data>
+  <data name="EditarServicoPrestadora" xml:space="preserve">
+    <value>Espanhol - Editar Serviço Prestadora</value>
+  </data>
+  <data name="EditarTipoManutencao" xml:space="preserve">
+    <value>Espanhol - Editar Tipo de Manutenção</value>
+  </data>
+  <data name="EditarUnidadeMedida" xml:space="preserve">
+    <value>Espanhol - Editar Unidade de Medida</value>
+  </data>
+  <data name="EditarVeiculo" xml:space="preserve">
+    <value>Espanhol - Editar Veículo</value>
+  </data>
+  <data name="ListarCaracteristica" xml:space="preserve">
+    <value>Espanhol - Lista de Características</value>
+  </data>
+  <data name="ListarCategoriaEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Lista Categorias de Equipamento Especial</value>
+  </data>
+  <data name="ListarCategoriaVeiculo" xml:space="preserve">
+    <value>Espanhol - Lista Categorias de Veículo</value>
+  </data>
+  <data name="ListarCentroCusto" xml:space="preserve">
+    <value>Espanhol - Lista de Centros de Custo</value>
+  </data>
+  <data name="ListarComponenteEquipe" xml:space="preserve">
+    <value>Espanhol - Lista Componentes de Equipe</value>
+  </data>
+  <data name="ListarContador" xml:space="preserve">
+    <value>Espanhol - Lista Contador</value>
+  </data>
+  <data name="ListarContratoPrestadora" xml:space="preserve">
+    <value>Espanhol - Lista Contratos de Prestadora</value>
+  </data>
+  <data name="ListarDeposito" xml:space="preserve">
+    <value>Espanhol - Lista Depósitos</value>
+  </data>
+  <data name="ListarEmpresaPrestadora" xml:space="preserve">
+    <value>Espanhol - Lista Empresas Prestadoras</value>
+  </data>
+  <data name="ListarEquipamento" xml:space="preserve">
+    <value>Espanhol - Lista Equipamentos</value>
+  </data>
+  <data name="ListarEquipamentoEspecial" xml:space="preserve">
+    <value>Espanhol - Lista Equipamentos Especiais</value>
+  </data>
+  <data name="ListarEquipe" xml:space="preserve">
+    <value>Espanhol - Lista Equipes</value>
+  </data>
+  <data name="ListarEspecialidade" xml:space="preserve">
+    <value>Espanhol - Lista Especialidades</value>
+  </data>
+  <data name="ListarEstado" xml:space="preserve">
+    <value>Espanhol - Lista Estados</value>
+  </data>
+  <data name="ListarFabricante" xml:space="preserve">
+    <value>Espanhol - Lista Fabricantes</value>
+  </data>
+  <data name="ListarFamilia" xml:space="preserve">
+    <value>Espanhol - Lista Famílias</value>
+  </data>
+  <data name="ListarGrupoCaracteristica" xml:space="preserve">
+    <value>Espanhol - Lista Grupos de Característica</value>
+  </data>
+  <data name="ListarListaAtividade" xml:space="preserve">
+    <value>Espanhol - Lista Listas de Atividade</value>
+  </data>
+  <data name="ListarLocalizacao" xml:space="preserve">
+    <value>Espanhol - Lista Localizações</value>
+  </data>
+  <data name="ListarMascara" xml:space="preserve">
+    <value>Espanhol - Lista Máscaras</value>
+  </data>
+  <data name="ListarMaterial" xml:space="preserve">
+    <value>Espanhol - Lista Materiais</value>
+  </data>
+  <data name="ListarModeloEquipamento" xml:space="preserve">
+    <value>Espanhol - Lista Modelos de Equipamentos</value>
+  </data>
+  <data name="ListarMotivoManutencao" xml:space="preserve">
+    <value>Espanhol - Lista Motivos Manutenção</value>
+  </data>
+  <data name="ListarMunicipio" xml:space="preserve">
+    <value>Espanhol - Lista Municípios</value>
+  </data>
+  <data name="ListarPais" xml:space="preserve">
+    <value>Espanhol - Lista Paises</value>
+  </data>
+  <data name="ListarServicoPrestadora" xml:space="preserve">
+    <value>Espanhol - Lista Serviços da Prestadora</value>
+  </data>
+  <data name="ListarTipoManutencao" xml:space="preserve">
+    <value>Espanhol - Lista Tipos de Manutenção</value>
+  </data>
+  <data name="ListarUnidadeMedida" xml:space="preserve">
+    <value>Espanhol - Lista Unidade de Medida</value>
+  </data>
+  <data name="ListarVeiculo" xml:space="preserve">
+    <value>Espanhol - Lista Veículos</value>
+  </data>
+  <data name="Contrato" xml:space="preserve">
+    <value>Espanhol - Contrato</value>
+  </data>
+  <data name="DataFinal" xml:space="preserve">
+    <value>Espanhol - Data Final</value>
+  </data>
+  <data name="DataInicio" xml:space="preserve">
+    <value>Espanhol - Data Início</value>
+  </data>
+  <data name="Identificador" xml:space="preserve">
+    <value>Espanhol - Identificador</value>
+  </data>
+  <data name="Placa" xml:space="preserve">
+    <value>Espanhol - Placa</value>
+  </data>
+  <data name="Servico" xml:space="preserve">
+    <value>Espanhol - Serviço</value>
+  </data>
+  <data name="ValorTotal" xml:space="preserve">
+    <value>Espanhol - Valor Total</value>
+  </data>
+  <data name="Arquivo" xml:space="preserve">
+    <value>Espanhol - Arquivo</value>
+  </data>
+  <data name="NumeroDigitos" xml:space="preserve">
+    <value>Espanhol - Número de Digitos</value>
+  </data>
+  <data name="Detalhe" xml:space="preserve">
+    <value>Espanhol - Detalhe</value>
+  </data>
+  <data name="Agendamento" xml:space="preserve">
+    <value>Espanhol - Agendamento</value>
+  </data>
+  <data name="CadastrarOrdemServico" xml:space="preserve">
+    <value>Espanhol - Cadastrar Ordem de Serviço</value>
+  </data>
+  <data name="EditarOrdemServico" xml:space="preserve">
+    <value>Espanhol - Editar Ordem de Serviço</value>
+  </data>
+  <data name="Execucao" xml:space="preserve">
+    <value>Espanhol - Execução</value>
+  </data>
+  <data name="Finalizado" xml:space="preserve">
+    <value>Espanhol - Finalizado</value>
+  </data>
+  <data name="InformacoesGeraisOrdemServico" xml:space="preserve">
+    <value>Espanhol - Informações Gerais da Ordem de Serviço</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Espanhol - Início</value>
+  </data>
+  <data name="ListarOrdemServico" xml:space="preserve">
+    <value>Espanhol - Listar Ordens de Serviço</value>
+  </data>
+  <data name="OrdemServico" xml:space="preserve">
+    <value>Espanhol - Ordem de Serviço</value>
+  </data>
+  <data name="Agenda" xml:space="preserve">
+    <value>Espanhol - Agenda</value>
+  </data>
+  <data name="Apontamento" xml:space="preserve">
+    <value>Espanhol - Apontamento</value>
+  </data>
+  <data name="DataOrdemServico" xml:space="preserve">
+    <value>Espanhol - Data da Ordem de Serviço</value>
+  </data>
+  <data name="EnvolveIndisponibilidade" xml:space="preserve">
+    <value>Espanhol - Envolve Indisponibilidade</value>
+  </data>
+  <data name="Fechamento" xml:space="preserve">
+    <value>Espanhol - Fechamento</value>
+  </data>
+  <data name="InfomacoesTecnicas" xml:space="preserve">
+    <value>Espanhol - Infomações Técnicas</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Espanhol - Manual</value>
+  </data>
+  <data name="MaoObra" xml:space="preserve">
+    <value>Espanhol - Mão de Obra</value>
+  </data>
+  <data name="ObjetoOrdemServico" xml:space="preserve">
+    <value>Espanhol - Objeto da Ordem de Serviço</value>
+  </data>
+  <data name="PlanejamentoExecucao" xml:space="preserve">
+    <value>Espanhol - Planejamento para Execução</value>
+  </data>
+  <data name="PlanoManutencaoBaseado" xml:space="preserve">
+    <value>Espanhol - Plano de Manutenção Baseado em</value>
+  </data>
+  <data name="PropostaAgenda" xml:space="preserve">
+    <value>Espanhol - Proposta de agenda</value>
+  </data>
+  <data name="ServicosTerceiros" xml:space="preserve">
+    <value>Espanhol - Serviços Terceiros</value>
+  </data>
+  <data name="SituacaoOrdemServico" xml:space="preserve">
+    <value>Espanhol - Situação da Ordem de Serviço</value>
+  </data>
+  <data name="Tempo" xml:space="preserve">
+    <value>Espanhol - Tempo</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Espanhol - Sigma ECM</value>
+  </data>
+  <data name="DataFechamento" xml:space="preserve">
+    <value>Espanhol - Data de Fechamento</value>
+  </data>
+  <data name="PlanejamentoInicialDatas" xml:space="preserve">
+    <value>Espanhol - Planejamento Inicial de Datas</value>
+  </data>
+  <data name="TempoIndisponibilidade" xml:space="preserve">
+    <value>Espanhol - Tempo de Indisponibilidade</value>
+  </data>
+  <data name="DataCriacao" xml:space="preserve">
+    <value>Espanhol - Data Criação</value>
+  </data>
+  <data name="Planejada" xml:space="preserve">
+    <value>Espanhol - Planejada</value>
+  </data>
+  <data name="PMOrigem" xml:space="preserve">
+    <value>Espanhol - PM Origem</value>
+  </data>
+  <data name="Prevista" xml:space="preserve">
+    <value>Espanhol - Prevista</value>
+  </data>
+  <data name="UsuarioCriacao" xml:space="preserve">
+    <value>Espanhol - Criado por</value>
+  </data>
+  <data name="Sobressalentes" xml:space="preserve">
+    <value>Espanhol - Sobressalentes</value>
+  </data>
+  <data name="Excluir" xml:space="preserve">
+    <value>Espanhol - Excluir</value>
+  </data>
+  <data name="Nao" xml:space="preserve">
+    <value>Espanhol - Não</value>
+  </data>
+  <data name="Outros" xml:space="preserve">
+    <value>Espanhol - Outros</value>
+  </data>
+  <data name="Programado" xml:space="preserve">
+    <value>Espanhol - Programado</value>
+  </data>
+  <data name="PviPlanejado" xml:space="preserve">
+    <value>Espanhol - PVI Planejado</value>
+  </data>
+  <data name="PviPrevisto" xml:space="preserve">
+    <value>Espanhol - PVI Previsto</value>
+  </data>
+  <data name="PviRealizado" xml:space="preserve">
+    <value>Espanhol - PVI Realizado</value>
+  </data>
+  <data name="Sim" xml:space="preserve">
+    <value>Espanhol - Sim</value>
+  </data>
+  <data name="TipoIntervencao" xml:space="preserve">
+    <value>Espanhol - Tipo de Intervenção</value>
+  </data>
+  <data name="DataFinalExecucao" xml:space="preserve">
+    <value>Espanhol - Data final de execução</value>
+  </data>
+  <data name="DataInicial" xml:space="preserve">
+    <value>Espanhol - Data Inicial</value>
+  </data>
+  <data name="ForaHorarioTrabalho" xml:space="preserve">
+    <value>Espanhol - Fora do horário de trabalho</value>
+  </data>
+  <data name="Alterar" xml:space="preserve">
+    <value>Espanhol - Alterar</value>
+  </data>
+  <data name="Atividade" xml:space="preserve">
+    <value>Espanhol - Atividade</value>
+  </data>
+  <data name="Causa" xml:space="preserve">
+    <value>Espanhol - Causa</value>
+  </data>
+  <data name="CustoHomemHora" xml:space="preserve">
+    <value>Espanhol - Custo Homem-Hora</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Espanhol - Data</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Espanhol - Download</value>
+  </data>
+  <data name="Duracao" xml:space="preserve">
+    <value>Espanhol - Duração</value>
+  </data>
+  <data name="DuracaoHoraMinuto" xml:space="preserve">
+    <value>Espanhol - Duração (Hora : Minuto)</value>
+  </data>
+  <data name="Fornecedor" xml:space="preserve">
+    <value>Espanhol - Fornecedor</value>
+  </data>
+  <data name="Inserir" xml:space="preserve">
+    <value>Espanhol - Inserir</value>
+  </data>
+  <data name="KmTotal" xml:space="preserve">
+    <value>Espanhol - Km Total</value>
+  </data>
+  <data name="Ocorrencia" xml:space="preserve">
+    <value>Espanhol - Ocorrência</value>
+  </data>
+  <data name="PorcentagemCaracter" xml:space="preserve">
+    <value>Espanhol - %</value>
+  </data>
+  <data name="Quantidade" xml:space="preserve">
+    <value>Espanhol - Quantidade</value>
+  </data>
+  <data name="QuantidadePlanejada" xml:space="preserve">
+    <value>Espanhol - Quantidade Planejada</value>
+  </data>
+  <data name="QuantidadeRealizada" xml:space="preserve">
+    <value>Espanhol - Quantidade Realizada</value>
+  </data>
+  <data name="Repete" xml:space="preserve">
+    <value>Espanhol - Repete</value>
+  </data>
+  <data name="Sistema" xml:space="preserve">
+    <value>Espanhol - Conjunto</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Espanhol - Tags</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Espanhol - Valor</value>
+  </data>
+  <data name="ValorUnitario" xml:space="preserve">
+    <value>Espanhol - Valor Unitário</value>
+  </data>
+  <data name="Fechar" xml:space="preserve">
+    <value>Espanhol - Fechar</value>
+  </data>
+  <data name="InserirEquipamentoSobressalente" xml:space="preserve">
+    <value>Espanhol - Inserir Equipamento Sobressalente</value>
+  </data>
+  <data name="InserirSubEquipamento" xml:space="preserve">
+    <value>Espanhol - Inserir Sub Equipamento</value>
+  </data>
+  <data name="Salvar" xml:space="preserve">
+    <value>Espanhol - Salvar</value>
+  </data>
+  <data name="Pesquisar" xml:space="preserve">
+    <value>Espanhol - Pesquisar</value>
+  </data>
+  <data name="PesquisarMaterial" xml:space="preserve">
+    <value>Espanhol - Pesquisar Material</value>
+  </data>
+  <data name="ValorServico" xml:space="preserve">
+    <value>Espanhol - Valor Serviço</value>
+  </data>
+  <data name="RepeticaoAnual" xml:space="preserve">
+    <value>Espanhol - Repetição Anual</value>
+  </data>
+  <data name="PesquisarLocalizacao" xml:space="preserve">
+    <value>Espanhol - Pesquisar Localização</value>
+  </data>
+  <data name="PesquisarEquipe" xml:space="preserve">
+    <value>Espanhol - Pesquisar Equipe</value>
+  </data>
+  <data name="Percentual" xml:space="preserve">
+    <value>Espanhol - Percentual</value>
+  </data>
+  <data name="TipoNotaEvento" xml:space="preserve">
+    <value>Espanhol - Tipo Nota de Evento</value>
+  </data>
+  <data name="PlanoSimples" xml:space="preserve">
+    <value>Espanhol - Plano Simples</value>
+  </data>
+  <data name="Botao_Localizar" xml:space="preserve">
+    <value>Espanhol - Localizar</value>
+  </data>
+  <data name="CadastrarTiposNotas" xml:space="preserve">
+    <value>Espanhol - Cadastrar Tipos de Notas de Eventos</value>
+  </data>
+  <data name="Disponivel" xml:space="preserve">
+    <value>Espanhol - Disponível</value>
+  </data>
+  <data name="TiposNotas" xml:space="preserve">
+    <value>Espanhol - Tipos de Notas de Eventos</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>Espanhol - Todos</value>
+  </data>
+  <data name="CadastrarTipoNotaEvento" xml:space="preserve">
+    <value>Espanhol - Cadastrar Tipo Nota de Evento</value>
+  </data>
+  <data name="EditarTipoNotaEvento" xml:space="preserve">
+    <value>Espanhol - Editar Tipo Nota de Evento</value>
+  </data>
+  <data name="ListarTipoNotaEvento" xml:space="preserve">
+    <value>Espanhol - Listar Tipos Notas de Eventos</value>
+  </data>
+  <data name="Observacao" xml:space="preserve">
+    <value>Espanhol - Observação</value>
+  </data>
+  <data name="Botao_Pesquisar" xml:space="preserve">
+    <value>Espanhol - Pesquisar</value>
+  </data>
+  <data name="Espanhol" xml:space="preserve">
+    <value>Espanhol - Espanhol</value>
+  </data>
+  <data name="Ingles" xml:space="preserve">
+    <value>Espanhol - Inglês</value>
+  </data>
+  <data name="NotaEvento" xml:space="preserve">
+    <value>Espanhol - Nota de Evento</value>
+  </data>
+  <data name="Portugues" xml:space="preserve">
+    <value>Espanhol - Português</value>
+  </data>
+  <data name="StringConexaoInvalida" xml:space="preserve">
+    <value>Espanhol - A string de conexão informada é inválida</value>
+  </data>
+  <data name="StringConexaoValida" xml:space="preserve">
+    <value>Espanhol - A string de conexão é válida</value>
+  </data>
+  <data name="CampoObrigatorio" xml:space="preserve">
+    <value>Espanhol - O campo {0} é obrigatório</value>
+  </data>
+  <data name="CadastrarNotaEvento" xml:space="preserve">
+    <value>Espanhol - Cadastrar Nota de Evento</value>
+  </data>
+  <data name="NumeroMaximoCaracteres" xml:space="preserve">
+    <value>Espanhol - O campo {0} deve conter no máximo {1} caracteres.</value>
+    <comment>The field descricao must be a string with a maximum length of 5.</comment>
+  </data>
+  <data name="CampoForaPadrao" xml:space="preserve">
+    <value>Espanhol - Campo {0} esta fora do padrão.</value>
+  </data>
+  <data name="faixaValor" xml:space="preserve">
+    <value>Espanhol - O valor do campo {0} deve estar entre {1} e {2}.</value>
+  </data>
+  <data name="DescricaoCategoria" xml:space="preserve">
+    <value>Espanhol - Descrição da Categoria</value>
+  </data>
+  <data name="Prefixo" xml:space="preserve">
+    <value>Espanhol - Prefixo</value>
+  </data>
+  <data name="Sufixo" xml:space="preserve">
+    <value>Espanhol - Sufixo</value>
+  </data>
+  <data name="ValoresPossiveis" xml:space="preserve">
+    <value>Espanhol - Valores Possíveis</value>
+  </data>
+  <data name="LocalizacaoSuperior" xml:space="preserve">
+    <value>Espanhol - Localização Superior</value>
+  </data>
+  <data name="PesquisarEquipamento" xml:space="preserve">
+    <value>Espanhol - Pesquisar Equipamento</value>
+  </data>
+  <data name="PesquisarUnidadeMedida" xml:space="preserve">
+    <value>Espanhol - Pesquisar Unidade Medida</value>
+  </data>
+  <data name="Motivo" xml:space="preserve">
+    <value>Espanhol - Motivo</value>
+  </data>
+  <data name="TipoOrigem" xml:space="preserve">
+    <value>Espanhol - Tipo Origem</value>
+  </data>
+  <data name="FuncaoTransmissao" xml:space="preserve">
+    <value>Espanhol - Função Transmissão</value>
+  </data>
+  <data name="Raiz" xml:space="preserve">
+    <value>Espanhol - Raiz</value>
+  </data>
+  <data name="DesejaContinuar" xml:space="preserve">
+    <value>Espanhol - Deseja Continuar?</value>
+  </data>
+  <data name="IdentificadorDuplicado" xml:space="preserve">
+    <value>Espanhol - Identificador Duplicado</value>
+  </data>
+  <data name="Botao_Cancelar" xml:space="preserve">
+    <value>Espanhol - Cancelar</value>
+  </data>
+  <data name="Botao_Confirmar" xml:space="preserve">
+    <value>Espanhol - Confirmar</value>
+  </data>
+  <data name="Msg_OperacaoIrreversivelDesejaContinuar" xml:space="preserve">
+    <value>Espanhol - Essa é uma operação irreversível. Deseja continuar?</value>
+  </data>
+  <data name="Msg_VoceEstaPrestesExcluirAlgumRegistro" xml:space="preserve">
+    <value>Espanhol - Você está prestes a excluir alguns registros.</value>
+  </data>
+  <data name="ValorHora" xml:space="preserve">
+    <value>Espanhol - Valor Hora</value>
+  </data>
+  <data name="UnidadePagamentoBase" xml:space="preserve">
+    <value>Espanhol - Unidade Pagamento Base</value>
+  </data>
+  <data name="PagamentoBase" xml:space="preserve">
+    <value>Espanhol - Pagamento Base</value>
+  </data>
+  <data name="CheckboxMultiplosSelecionados" xml:space="preserve">
+    <value>Espanhol - O campo {0} requer ao menos um selecionado!</value>
+  </data>
+  <data name="DataUltimaAlteracao" xml:space="preserve">
+    <value>Espanhol - Data da última alteração</value>
+  </data>
+  <data name="UsuarioUltimaAlteracao" xml:space="preserve">
+    <value>Espanhol - Alterado por</value>
+  </data>
+  <data name="NumeroOS" xml:space="preserve">
+    <value>Espanhol - Número da OS</value>
+  </data>
+  <data name="DeslPorAno" xml:space="preserve">
+    <value>Espanhol - Desl/Ano</value>
+  </data>
+  <data name="HoraPorAno" xml:space="preserve">
+    <value>Espanhol - Hora/Ano</value>
+  </data>
+  <data name="PadraoDuracaoDesligamento" xml:space="preserve">
+    <value>Espanhol - Padrão de duração de desligamento</value>
+  </data>
+  <data name="PadraoFrequenciaDesligamento" xml:space="preserve">
+    <value>Espanhol - Padrão de frequência de desligamento</value>
+  </data>
+  <data name="Ano1" xml:space="preserve">
+    <value>Espanhol - Ano 1</value>
+  </data>
+  <data name="Ano2" xml:space="preserve">
+    <value>Espanhol - Ano 2</value>
+  </data>
+  <data name="DataPrevista" xml:space="preserve">
+    <value>Espanhol - Data Prevista</value>
+  </data>
+  <data name="Objeto" xml:space="preserve">
+    <value>Espanhol - Objeto</value>
+  </data>
+  <data name="StatusOS" xml:space="preserve">
+    <value>Espanhol - Status OS</value>
+  </data>
+  <data name="Titulo" xml:space="preserve">
+    <value>Espanhol - Título</value>
+  </data>
+  <data name="EditarNotaEvento" xml:space="preserve">
+    <value>Espanhol - Editar Nota de Evento</value>
+  </data>
+  <data name="ListarNotaEventos" xml:space="preserve">
+    <value>Espanhol - Listar Notas de Eventos</value>
+  </data>
+  <data name="InformacoesNotaEvento" xml:space="preserve">
+    <value>Espanhol - Informações Gerais da Nota de Evento</value>
+  </data>
+  <data name="InformacoesOrdemServico" xml:space="preserve">
+    <value>Espanhol - Dados da Ordem de Serviço associada a Nota de Evento</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>Espanhol - Número</value>
+  </data>
+  <data name="ValoresFixo" xml:space="preserve">
+    <value>Espanhol - Valores Fixo</value>
+  </data>
+  <data name="Logar" xml:space="preserve">
+    <value>Espanhol - Clique aqui para logar</value>
+  </data>
+  <data name="SimboloMonetario" xml:space="preserve">
+    <value>Espanhol - R$</value>
+  </data>
+  <data name="TipoPeriodo" xml:space="preserve">
+    <value>Espanhol - Tipo do Período</value>
+  </data>
+  <data name="NumeroMaximoCaracteresValor" xml:space="preserve">
+    <value>Espanhol - O campo Valor deve conter no máximo 20 caracteres.</value>
+    <comment>The field descricao must be a string with a maximum length of 5.</comment>
+  </data>
+  <data name="SubEquipamento" xml:space="preserve">
+    <value>Espanhol - Subequipamento</value>
+  </data>
+  <data name="Hora" xml:space="preserve">
+    <value>Espanhol - Hora</value>
+  </data>
+  <data name="Minuto" xml:space="preserve">
+    <value>Espanhol - Minuto(s)</value>
+  </data>
+  <data name="DistanciaPlanejada" xml:space="preserve">
+    <value>Espanhol - Distância Planejada</value>
+  </data>
+  <data name="DistanciaRealizada" xml:space="preserve">
+    <value>Espanhol - Distância Realizada</value>
+  </data>
+  <data name="ValorPlanejado" xml:space="preserve">
+    <value>Espanhol - Valor Planejado</value>
+  </data>
+  <data name="ValorRealizado" xml:space="preserve">
+    <value>Espanhol - Valor Realizado</value>
+  </data>
+  <data name="DuracaoPlanejada" xml:space="preserve">
+    <value>Espanhol - Duração Planejada</value>
+  </data>
+  <data name="DuracaoRealizada" xml:space="preserve">
+    <value>Espanhol - Duração Realizada</value>
+  </data>
+  <data name="PossuiOrdemServico" xml:space="preserve">
+    <value>Espanhol - Possui Ordem de Serviço</value>
+  </data>
+  <data name="ObjetoNotaEventos" xml:space="preserve">
+    <value>Espanhol - Objeto da Nota de Eventos</value>
+  </data>
+  <data name="SomenteAtrasadas" xml:space="preserve">
+    <value>Espanhol - Somente as Atrasadas</value>
+  </data>
+  <data name="Planejado" xml:space="preserve">
+    <value>Espanhol - Planejado</value>
+  </data>
+  <data name="Realizado" xml:space="preserve">
+    <value>Espanhol - Realizado</value>
+  </data>
+  <data name="Imprimir" xml:space="preserve">
+    <value>Espanhol - Imprimir</value>
+  </data>
+  <data name="ImprimirOrdemServico" xml:space="preserve">
+    <value>Espanhol - Imprimir Ordem de Serviço</value>
+  </data>
+  <data name="DataInicialExecucao" xml:space="preserve">
+    <value>Espanhol - Data Inicial de Execução</value>
+  </data>
+  <data name="GerarOrdemServico" xml:space="preserve">
+    <value>Espanhol - Gerar O.S.</value>
+  </data>
+  <data name="HorarioFinal" xml:space="preserve">
+    <value>Espanhol - Horário Final</value>
+  </data>
+  <data name="HorarioInicial" xml:space="preserve">
+    <value>Espanhol - Horário Inicial</value>
+  </data>
+  <data name="Atencao" xml:space="preserve">
+    <value>Espanhol - Atenção</value>
+  </data>
+  <data name="DesejaMudarFase" xml:space="preserve">
+    <value>Espanhol - Deseja Mudar de Fase?</value>
+  </data>
+  <data name="FiltrarPesquisa" xml:space="preserve">
+    <value>Espanhol - Filtrar Pesquisa</value>
+  </data>
+  <data name="LimparFiltro" xml:space="preserve">
+    <value>Espanhol - Limpar Filtro</value>
+  </data>
+  <data name="TamanhoArquivoInvalido" xml:space="preserve">
+    <value>Espanhol - Tamanho de arquivo inválido</value>
+  </data>
+  <data name="TipoArquivoInvalido" xml:space="preserve">
+    <value>Espanhol - Tipo de arquivo inválido</value>
+  </data>
+  <data name="DataFinalPlanejamentoExecucao" xml:space="preserve">
+    <value>Espanhol - Data Final de Planejamento para Execução</value>
+  </data>
+  <data name="DataInicialPlanejamentoExecucao" xml:space="preserve">
+    <value>Espanhol - Data Inicial de Planejamento para Execução</value>
+  </data>
+  <data name="HoraFinalPlanejamentoExecucao" xml:space="preserve">
+    <value>Espanhol - Hora Final de Planejamento para Execução</value>
+  </data>
+  <data name="HoraInicialPlanejamentoExecucao" xml:space="preserve">
+    <value>Espanhol - Hora Inicial de Planejamento para Execução</value>
+  </data>
+  <data name="DataFinalExecucaoReal" xml:space="preserve">
+    <value>Espanhol - Data Final de Planejamento para Execução Real</value>
+  </data>
+  <data name="HoraFinalExecucaoRealRealExecucao" xml:space="preserve">
+    <value>Espanhol - Hora Final de Planejamento para Execução Real</value>
+  </data>
+  <data name="DataInicialExecucaoReal" xml:space="preserve">
+    <value>Espanhol - Data Inicial de Planejamento para Execução Real</value>
+  </data>
+  <data name="HoraFinalExecucaoReal" xml:space="preserve">
+    <value>Espanhol - Hora Final de Planejamento para Execução Real</value>
+  </data>
+  <data name="HoraInicialExecucaoReal" xml:space="preserve">
+    <value>Espanhol - Hora Inicial de Planejamento para Execução Real</value>
+  </data>
+  <data name="TipoObjeto" xml:space="preserve">
+    <value>Espanhol - Tipo de Objeto</value>
+  </data>
+  <data name="NotaEventos" xml:space="preserve">
+    <value>Espanhol - Nota de Eventos</value>
+  </data>
+  <data name="InsiraArquivo" xml:space="preserve">
+    <value>Espanhol - Insira um arquivo</value>
+  </data>
+  <data name="ListarPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Listar Planos de Manutenções</value>
+  </data>
+  <data name="CadastrarPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Cadastrar Plano de Manutenção</value>
+  </data>
+  <data name="InformacoesGeraisPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Informações Gerais do Plano de Manutenção</value>
+  </data>
+  <data name="NumeroPlano" xml:space="preserve">
+    <value>Espanhol - Número do Plano</value>
+  </data>
+  <data name="Recursos" xml:space="preserve">
+    <value>Espanhol - Recursos</value>
+  </data>
+  <data name="OutrasInformacoes" xml:space="preserve">
+    <value>Espanhol - Outras Informações</value>
+  </data>
+  <data name="DeveAbrir" xml:space="preserve">
+    <value>Espanhol - Deve Abrir</value>
+  </data>
+  <data name="ObjetoPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Objeto do Plano de Manutenção</value>
+  </data>
+  <data name="PlanoHierarquico" xml:space="preserve">
+    <value>Espanhol - Plano Hierárquico</value>
+  </data>
+  <data name="AbrirAntecendencia" xml:space="preserve">
+    <value>Espanhol - Abrir com antecedência</value>
+  </data>
+  <data name="ConfiguracoesProgramacao" xml:space="preserve">
+    <value>Espanhol - Configurações de Programação</value>
+  </data>
+  <data name="ContadorReferencia" xml:space="preserve">
+    <value>Espanhol - Contador de Referência</value>
+  </data>
+  <data name="DadosUltimaManutencao" xml:space="preserve">
+    <value>Espanhol - Dados da Última Manutenção</value>
+  </data>
+  <data name="DataFixada" xml:space="preserve">
+    <value>Espanhol - Data Fixada</value>
+  </data>
+  <data name="DataReferencia" xml:space="preserve">
+    <value>Espanhol - Data de Referência</value>
+  </data>
+  <data name="ModoProgramacao" xml:space="preserve">
+    <value>Espanhol - Modo de Programação</value>
+  </data>
+  <data name="OcorreCada" xml:space="preserve">
+    <value>Espanhol - Ocorre a cada</value>
+  </data>
+  <data name="Periodo" xml:space="preserve">
+    <value>Espanhol - Período</value>
+  </data>
+  <data name="DataInvalida" xml:space="preserve">
+    <value>Espanhol - Data Inválida</value>
+  </data>
+  <data name="ProximasExecucoesPrevistas" xml:space="preserve">
+    <value>Espanhol - Próximas Execuções Previstas</value>
+  </data>
+  <data name="ProximasExecucoesPrevistasCicloContador" xml:space="preserve">
+    <value>Espanhol - Próximas Execuções Previstas por Ciclo de Contador</value>
+  </data>
+  <data name="ProximasExecucoesPrevistasCicloTempo" xml:space="preserve">
+    <value>Espanhol - Próximas Execuções Previstas por Ciclo de Tempo</value>
+  </data>
+  <data name="Distancia" xml:space="preserve">
+    <value>Espanhol - Distância</value>
+  </data>
+  <data name="ContadorUltimaManutencao" xml:space="preserve">
+    <value>Espanhol - Contador na Últ. Manutenção</value>
+  </data>
+  <data name="DataUltimaManutencao" xml:space="preserve">
+    <value>Espanhol - Data da Últ. Manutenção</value>
+  </data>
+  <data name="ManuntecaoOcorreCada" xml:space="preserve">
+    <value>Espanhol - A manunteção ocorre a cada</value>
+  </data>
+  <data name="Peso" xml:space="preserve">
+    <value>Espanhol - Peso</value>
+  </data>
+  <data name="TipoRecorrencia" xml:space="preserve">
+    <value>Espanhol - Tipo de Recorrência</value>
+  </data>
+  <data name="EditarPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Editar Plano de Manutenção</value>
+  </data>
+  <data name="PlanoMultiplo" xml:space="preserve">
+    <value>Espanhol - Plano Múltiplo</value>
+  </data>
+  <data name="PlanoSimplesContador" xml:space="preserve">
+    <value>Espanhol - Plano Simples por Contador</value>
+  </data>
+  <data name="PlanoSimplesData" xml:space="preserve">
+    <value>Espanhol - Plano Simples por Data</value>
+  </data>
+  <data name="Ativo" xml:space="preserve">
+    <value>Espanhol - Ativo</value>
+  </data>
+  <data name="ContadorAtual" xml:space="preserve">
+    <value>Espanhol - Contador Atual</value>
+  </data>
+  <data name="EmpresaAntecipaAtividadesFeriado" xml:space="preserve">
+    <value>Espanhol - Empresa antecipa atividades no Feriado</value>
+  </data>
+  <data name="HouveSubstituicao" xml:space="preserve">
+    <value>Espanhol - Houve Substituição?</value>
+  </data>
+  <data name="LeituraAtual" xml:space="preserve">
+    <value>Espanhol - Leitura Atual</value>
+  </data>
+  <data name="ValorAcumulado" xml:space="preserve">
+    <value>Espanhol - Valor Acumulado</value>
+  </data>
+  <data name="ProgramacaoContador" xml:space="preserve">
+    <value>Espanhol - Programação por Contador</value>
+  </data>
+  <data name="ProgramacaoData" xml:space="preserve">
+    <value>Espanhol - Programação por Data</value>
+  </data>
+  <data name="Historico" xml:space="preserve">
+    <value>Espanhol - Histórico</value>
+  </data>
+  <data name="Substituicao" xml:space="preserve">
+    <value>Espanhol - Substituição</value>
+  </data>
+  <data name="NaoFoiPossivelDeterminarValorAcumulado" xml:space="preserve">
+    <value>Espanhol - Não foi possível determinar o valor acumulado</value>
+  </data>
+  <data name="EmCasoSubstituicaoValorNaoPodeSerDeterminado" xml:space="preserve">
+    <value>Espanhol - Em caso de substituição o valor não pode ser determinado</value>
+  </data>
+  <data name="InformacoesGerais" xml:space="preserve">
+    <value>Espanhol - Informações Gerais</value>
+  </data>
+  <data name="ERRO" xml:space="preserve">
+    <value>Espanhol - ERRO</value>
+  </data>
+  <data name="MensagemErro" xml:space="preserve">
+    <value>Espanhol - Ocorreu um erro não identificado enquanto a sua requisição era processada.
+Você será redirecionado para a página que estava anteriormente.
+
+Desculpe o transtorno.</value>
+  </data>
+  <data name="ProporHorarios" xml:space="preserve">
+    <value>Espanhol - Propor Horários</value>
+  </data>
+  <data name="ValidarAgendamento" xml:space="preserve">
+    <value>Espanhol - Validar Agendamento</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Espanhol - Ok</value>
+  </data>
+  <data name="HouveManutencao" xml:space="preserve">
+    <value>Espanhol - Houve Manutenção?</value>
+  </data>
+  <data name="Manutencao" xml:space="preserve">
+    <value>Espanhol - Manutenção</value>
+  </data>
+  <data name="Diferenca" xml:space="preserve">
+    <value>Espanhol - Diferença</value>
+  </data>
+  <data name="ProximaExecucaoContadorErro" xml:space="preserve">
+    <value>Espanhol - Não foi possível calcular data da próxima manutenção por contador.</value>
+  </data>
+  <data name="ConfiguracaoBaseEquipamento" xml:space="preserve">
+    <value>Espanhol - Configuração base para todos equipamentos.</value>
+  </data>
+  <data name="ReplicarDadosFamilia" xml:space="preserve">
+    <value>Espanhol - Definir essas configurações para toda a família.</value>
+  </data>
+  <data name="ValorPositivo" xml:space="preserve">
+    <value>Espanhol - É obrigatório um valor positivo.</value>
+  </data>
+  <data name="PeriodoGarantiaEstoque" xml:space="preserve">
+    <value>Espanhol - Período da Garantia em Estoque</value>
+  </data>
+  <data name="PeriodoGarantiaOperacao" xml:space="preserve">
+    <value>Espanhol - Período da Garantia em Operação</value>
+  </data>
+  <data name="EmailRemetente" xml:space="preserve">
+    <value>Espanhol - Usuário Autenticação</value>
+  </data>
+  <data name="ExtensoesPermitidadas" xml:space="preserve">
+    <value>Espanhol - Extensões permitidas para upload</value>
+  </data>
+  <data name="HabilitaEnvioEmails" xml:space="preserve">
+    <value>Espanhol - Habilitar o envio de e-mails pelo sistema</value>
+  </data>
+  <data name="JobTempoExecucao" xml:space="preserve">
+    <value>Espanhol - Intervalo para verificação das tarefas internas</value>
+  </data>
+  <data name="SenhaEmailRemente" xml:space="preserve">
+    <value>Espanhol - Senha</value>
+  </data>
+  <data name="ServicoSMTP" xml:space="preserve">
+    <value>Espanhol - SMTP</value>
+  </data>
+  <data name="ServidorRequerSSL" xml:space="preserve">
+    <value>Espanhol - Servidor requer autenticação SSL para envio de emails</value>
+  </data>
+  <data name="TamanhoMaximoArquivo" xml:space="preserve">
+    <value>Espanhol - Tamanho máximo do arquivo para upload</value>
+  </data>
+  <data name="ConfiguracaoEmail" xml:space="preserve">
+    <value>Espanhol - Configurações de Email</value>
+  </data>
+  <data name="ConfiguracaoServicosInternos" xml:space="preserve">
+    <value>Espanhol - Configurações de Serviços Internos</value>
+  </data>
+  <data name="ConfiguracaoUpload" xml:space="preserve">
+    <value>Espanhol - Configurações de Upload</value>
+  </data>
+  <data name="DataInstalacao" xml:space="preserve">
+    <value>Espanhol - Data de Instalação</value>
+  </data>
+  <data name="PrevisaoCrescimento" xml:space="preserve">
+    <value>Espanhol - Previsão de Crescimento</value>
+  </data>
+  <data name="JobEmailTempoChecagem" xml:space="preserve">
+    <value>Espanhol - Intervalo para verificação das notificações de e-mail</value>
+  </data>
+  <data name="Porta" xml:space="preserve">
+    <value>Espanhol - Porta</value>
+  </data>
+  <data name="ServidorSMTPPorta" xml:space="preserve">
+    <value>Espanhol - SMTP Porta</value>
+  </data>
+  <data name="helperJobEmailTempoChecagem" xml:space="preserve">
+    <value>Espanhol - Configuração do intervalo para varredura das notificações do sistema.</value>
+  </data>
+  <data name="helperJobTempoExecucao" xml:space="preserve">
+    <value>Espanhol - Configuração do intervalo para varredura dos planos de manutenção que necessitam gerar ordem de serviço no período atual.</value>
+  </data>
+  <data name="DataVerificacao" xml:space="preserve">
+    <value>Espanhol - Data de Verificação</value>
+  </data>
+  <data name="CounterData" xml:space="preserve">
+    <value>Espanhol - Dados do Contador</value>
+  </data>
+  <data name="NoPessoas" xml:space="preserve">
+    <value>Espanhol - No. Pessoa(s)</value>
+  </data>
+  <data name="NumeroPessoas" xml:space="preserve">
+    <value>Espanhol - Número de Pessoa(s)</value>
+  </data>
+  <data name="LastReading" xml:space="preserve">
+    <value>Espanhol - Leitura Anterior</value>
+  </data>
+  <data name="HistoryCounterErrorDate" xml:space="preserve">
+    <value>Espanhol - A data  informada é menor que a data da última leitura</value>
+  </data>
+  <data name="HistoryCounterErrorReading" xml:space="preserve">
+    <value>Espanhol - A leitura informada é menor que a última leitura. Verifique o valor informado ou nofique substituição</value>
+  </data>
+  <data name="SalvamentoParcialPM" xml:space="preserve">
+    <value>Espanhol - O Plano de Manutenção {0} foi salvo com sucesso, porém ficará inativo por necessitar de algumas informações que não foram configuradas.</value>
+  </data>
+  <data name="DailyReportNotification" xml:space="preserve">
+    <value>Espanhol - Relatório Diário de Notificações</value>
+  </data>
+  <data name="EmailGeneratedOnDateBySystemMessage" xml:space="preserve">
+    <value>Espanhol - E-mail gerado em {0:dd/MM/yyyy} {0:hh:mm} pelo {1}</value>
+  </data>
+  <data name="MaintenancePlanImpeded" xml:space="preserve">
+    <value>Espanhol - Planos de Manutenção com Impedimento</value>
+  </data>
+  <data name="MaintenancePlanImpededByServiceOrderNotFinishedMessage" xml:space="preserve">
+    <value>Espanhol - A {0} não foi finalizada e está impedindo a geração de uma nova Ordem de Serviço na execução do {1}</value>
+  </data>
+  <data name="SummaryActivitiesOnSigmaAAM" xml:space="preserve">
+    <value>Espanhol - Resumo das atividades no sistema Sigma AAM</value>
+  </data>
+  <data name="SigmaAAM" xml:space="preserve">
+    <value>Espanhol - SigmaAAM</value>
+  </data>
+  <data name="ReferencAccumulator" xml:space="preserve">
+    <value>Espanhol - Acumulador de Referência</value>
+  </data>
+  <data name="StatusPM" xml:space="preserve">
+    <value>Espanhol - Status PM</value>
+  </data>
+  <data name="Inativo" xml:space="preserve">
+    <value>Espanhol - Inativo</value>
+  </data>
+  <data name="SituacaoPlanoManutencao" xml:space="preserve">
+    <value>Espanhol - Situação do Plano de Manutenção</value>
+  </data>
+  <data name="MaintenancePlanWithServiceOrderCreated" xml:space="preserve">
+    <value>Espanhol - Plano de Manutenção {1} possui Ordem de Serviço {0} em aberto, porém foi criada uma nova</value>
+  </data>
+  <data name="MaintenancePlanAlert" xml:space="preserve">
+    <value>Espanhol - Planos de Manutenção com Notificações Gerais</value>
+  </data>
+  <data name="InfoHabilitarPVI" xml:space="preserve">
+    <value>Espanhol - Para habilitar esta opção, é necessário um local/equipamento que possua PVI e uma data de execução prevista.</value>
+  </data>
+  <data name="Grafico" xml:space="preserve">
+    <value>Espanhol - Gráfico</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Espanhol - Iniciar</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Espanhol - Parar</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Espanhol - Atualizar</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>Espanhol - Processo</value>
+  </data>
+  <data name="Jobs" xml:space="preserve">
+    <value>Espanhol - Processos Internos</value>
+  </data>
+  <data name="LastTimeExecution" xml:space="preserve">
+    <value>Espanhol - Última Execução</value>
+  </data>
+  <data name="NextTimeExecution" xml:space="preserve">
+    <value>Espanhol - Próxima Execução</value>
+  </data>
+  <data name="EventNoteByMaintenancePlan" xml:space="preserve">
+    <value>Espanhol - Nota de evento gerada por plano de manutenção</value>
+  </data>
+  <data name="EventNoteSimple" xml:space="preserve">
+    <value>Espanhol - Nota de Evento Simples</value>
+  </data>
+  <data name="FoundSOlinkedMPExecutintStep" xml:space="preserve">
+    <value>Espanhol - Esse Plano de Manutenção não pode ser alterado, pois existe(m) a(s) seguinte(s) Ordem de Serviço sendo executada(s) no momento:</value>
+  </data>
+  <data name="FoundSOLinkedMPStatingStep" xml:space="preserve">
+    <value>Espanhol - Existe(m) Ordem de Serviço ligada(s) a esse Plano de Manutenção no estagio inicial. Deseja cancelar? Ordem(ns) de Serviço(s):</value>
+  </data>
+  <data name="MaintenancePlanImpededByEventNoteNotFinishedMessage" xml:space="preserve">
+    <value>Espanhol - A {0} não foi finalizada e está impedindo a geração de uma nova Nota de Evento na execução do {1}</value>
+  </data>
+  <data name="MaintenancePlanWithEventNoteCreated" xml:space="preserve">
+    <value>Espanhol - Plano de Manutenção {1} possui Nota de Evento {0} em aberto, porém foi criada uma nova</value>
+  </data>
+  <data name="NotificationJob" xml:space="preserve">
+    <value>Espanhol - Processo de Notificações</value>
+  </data>
+  <data name="NotificationJobDescription" xml:space="preserve">
+    <value>Espanhol - Envia e-mails frequentemente sobre as notificações do sistema</value>
+  </data>
+  <data name="Monitoramento" xml:space="preserve">
+    <value>Espanhol - Monitoramento</value>
+  </data>
+  <data name="AvisoFuncao" xml:space="preserve">
+    <value>Espanhol - Aviso de Função</value>
+  </data>
+  <data name="ProgramacaoTrigger" xml:space="preserve">
+    <value>Espanhol - Programação por Sigma ECM</value>
+  </data>
+  <data name="PlanoTrigger" xml:space="preserve">
+    <value>Espanhol - Plano Sigma ECM</value>
+  </data>
+  <data name="LinkKey" xml:space="preserve">
+    <value>Espanhol - Chave de Vínculo</value>
+  </data>
+  <data name="Aviso" xml:space="preserve">
+    <value>Espanhol - Aviso</value>
+  </data>
+  <data name="FuncoesEngenharia" xml:space="preserve">
+    <value>Espanhol - Funções de Engenharia</value>
+  </data>
+  <data name="FuncoesSupervisao" xml:space="preserve">
+    <value>Espanhol - Funções de Supervisão</value>
+  </data>
+  <data name="MaintenancePlanSusppended" xml:space="preserve">
+    <value>Espanhol - Plano de Manutenção Suspensa</value>
+  </data>
+  <data name="MaintenancePlanSusppendedByDisabledMonitoringEquipment" xml:space="preserve">
+    <value>Espanhol - A {1} foi suspenso por que o monitoramento do {0} foi desativado.</value>
+  </data>
+  <data name="Desativar" xml:space="preserve">
+    <value>Espanhol - Desativar</value>
+  </data>
+  <data name="DesativarMessagem" xml:space="preserve">
+    <value>Espanhol - Você esta prestes a desativar alguns registros. Deseja Continuar?</value>
+  </data>
+  <data name="SelecioneFuncao" xml:space="preserve">
+    <value>Espanhol - Selecione a função:</value>
+  </data>
+  <data name="Resposta" xml:space="preserve">
+    <value>Espanhol - Resposta</value>
+  </data>
+  <data name="OfflineForm" xml:space="preserve">
+    <value>Espanhol - Formulário</value>
+  </data>
+  <data name="ComponentType" xml:space="preserve">
+    <value>Espanhol - Tipo Componente</value>
+  </data>
+  <data name="ListOfflineForm" xml:space="preserve">
+    <value>Espanhol - Lista Formulários</value>
+  </data>
+  <data name="Menu_OfflineTest" xml:space="preserve">
+    <value>Espanhol - Ensaios</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Espanhol - Status</value>
+  </data>
+  <data name="CadastrarEnsaioOffline" xml:space="preserve">
+    <value>Espanhol - Cadastrar Ensaio Offline</value>
+  </data>
+  <data name="SugerirFormulario" xml:space="preserve">
+    <value>Espanhol - Sugerir formulário na criação de uma nova família.</value>
+  </data>
+  <data name="AssociarFamilia" xml:space="preserve">
+    <value>Espanhol - Associar Família</value>
+  </data>
+  <data name="ConfiguracaoBasica" xml:space="preserve">
+    <value>Espanhol - Configuração Básica</value>
+  </data>
+  <data name="ErrorSelectManpower" xml:space="preserve">
+    <value>Espanhol - Selecione o componente da mão de obra a ser utilizado</value>
+  </data>
+  <data name="ErrorselectSpecialEquipment" xml:space="preserve">
+    <value>Espanhol - Selecione o equipamento especial a ser utilizado</value>
+  </data>
+  <data name="ErrorSelectVehicle" xml:space="preserve">
+    <value>Espanhol - Selecione o veículo a ser utilizado</value>
+  </data>
+  <data name="UsuarioControleAcesso" xml:space="preserve">
+    <value>Espanhol - Usuário - Controle de Acesso</value>
+  </data>
+  <data name="Desbloquear" xml:space="preserve">
+    <value>Espanhol - Desbloquear</value>
+  </data>
+  <data name="OSBloqueada" xml:space="preserve">
+    <value>Espanhol - Esta ordem de serviço está bloqueada.</value>
+  </data>
+  <data name="MaintenancePlanByCounterJob" xml:space="preserve">
+    <value>Espanhol - Processo do Plano de Manutenção por contador</value>
+  </data>
+  <data name="MaintenancePlanByCounterJobDescription" xml:space="preserve">
+    <value>Espanhol - Efetua a abertura de Ordem de Serviço/Nota de Evento por contador</value>
+  </data>
+  <data name="MaintenancePlanByCounterOrTimeJob" xml:space="preserve">
+    <value>Espanhol - Processo do Plano de Manutenção por contador/tempo</value>
+  </data>
+  <data name="MaintenancePlanByCounterOrTimeJobDescription" xml:space="preserve">
+    <value>Espanhol - Efetua a abertura de Ordem de Serviço/Nota de Evento por contador/tempo</value>
+  </data>
+  <data name="MaintenancePlanByTimeWithDateRecurrenceJob" xml:space="preserve">
+    <value>Espanhol - Processo do Plano de Manutenção por tempo (data de referência)</value>
+  </data>
+  <data name="MaintenancePlanByTimeWithDateRecurrenceJobDescription" xml:space="preserve">
+    <value>Espanhol - Efetua a abertura de Ordem de Serviço/Nota de Evento por tempo (data de referência)</value>
+  </data>
+  <data name="MaintenancePlanByTimeWithFixedDateJob" xml:space="preserve">
+    <value>Espanhol - Processo do Plano de Manutenção por tempo (data fixada)</value>
+  </data>
+  <data name="MaintenancePlanByTimeWithFixedDateJobDescription" xml:space="preserve">
+    <value>Espanhol - Efetua a abertura de Ordem de Serviço/Nota de Evento por tempo (data fixada)</value>
+  </data>
+  <data name="MaintenancePlanHierarquicalJob" xml:space="preserve">
+    <value>Espanhol - Processo do Plano de Manutenção hieráquico</value>
+  </data>
+  <data name="MaintenancePlanHierarquicalJobDescription" xml:space="preserve">
+    <value>Espanhol - Efetua a abertura de Ordem de Serviço/Nota de Evento dos planos hieráquicos</value>
+  </data>
+  <data name="MaintenancePlanTriggerJob" xml:space="preserve">
+    <value>Espanhol - Processo do Plano de Manutenção por trigger</value>
+  </data>
+  <data name="MaintenancePlanTriggerJobDescription" xml:space="preserve">
+    <value>Espanhol - Efetua a abertura de Ordem de Serviço/Nota de Evento por trigger</value>
+  </data>
+  <data name="MaintenancePlanWithEquipmentOverdueJob" xml:space="preserve">
+    <value>Espanhol - Processo de verificação da validade do equipamento</value>
+  </data>
+  <data name="MaintenancePlanWithEquipmentOverdueJobDescription" xml:space="preserve">
+    <value>Espanhol - Verifica se o equipamento vinculado com o Sigma ECM está com a data contratual expirada</value>
+  </data>
+  <data name="JustifiqueDesbloqueio" xml:space="preserve">
+    <value>Espanhol - Justifique o motivo de desbloqueio.</value>
+  </data>
+  <data name="SuggestForms" xml:space="preserve">
+    <value>Espanhol - Formulários sugeridos</value>
+  </data>
+  <data name="ListOfflineFormTest" xml:space="preserve">
+    <value>Espanhol - Lista Ensaios</value>
+  </data>
+  <data name="OfflineFormTest" xml:space="preserve">
+    <value>Espanhol - Ensaio</value>
+  </data>
+  <data name="Subestacao" xml:space="preserve">
+    <value>Espanhol - Subestação</value>
+  </data>
+  <data name="ListOfflineFormTemplateComponent" xml:space="preserve">
+    <value>Espanhol - Lista Templates de Formulários</value>
+  </data>
+  <data name="OfflineFormTemplateComponent" xml:space="preserve">
+    <value>Espanhol - Template de Formulário</value>
+  </data>
+  <data name="EditOfflineFormTest" xml:space="preserve">
+    <value>Espanhol - Editar ensaio</value>
+  </data>
+  <data name="InsertOfflineFormTest" xml:space="preserve">
+    <value>Espanhol - Cadastrar ensaio</value>
+  </data>
+  <data name="FormWithoutComponents" xml:space="preserve">
+    <value>Espanhol - O formulário não possui componentes</value>
+  </data>
+  <data name="MaintenancePlanType" xml:space="preserve">
+    <value>Espanhol - Tipo de Plano de Manutenção</value>
+  </data>
+  <data name="ArquivosPermitidos" xml:space="preserve">
+    <value>Espanhol - Arquivos permitidos</value>
+  </data>
+  <data name="TamanhoMaximo" xml:space="preserve">
+    <value>Espanhol - Tamanho máximo</value>
+  </data>
+  <data name="DescricaoPlanoHierarquico" xml:space="preserve">
+    <value>Espanhol - Utilizado em intervenções em que as atividades a serem executadas variam de acordo com o ciclo de tempo, além de permitir configurar que uma atividade pode sobrepor outra.</value>
+  </data>
+  <data name="DescricaoPlanoMultiplo" xml:space="preserve">
+    <value>Espanhol - O controle é feito por tempo e por um limite de contagem de um contador/acumulador.</value>
+  </data>
+  <data name="DescricaoPlanoSimplesContador" xml:space="preserve">
+    <value>Espanhol - O controle é feito por um limite de contagem de um contador/acumulador.</value>
+  </data>
+  <data name="DescricaoPlanoSimplesData" xml:space="preserve">
+    <value>Espanhol - O controle é feito por tempo.</value>
+  </data>
+  <data name="DescricaoPlanoTrigger" xml:space="preserve">
+    <value>Espanhol - Interage com os alarmes das funções do Sigma ECM.</value>
+  </data>
+  <data name="PMSalvoInativo" xml:space="preserve">
+    <value>Espanhol - O Plano de Manutenção foi salvo com sucesso, porém está inativo.</value>
+  </data>
+  <data name="Configuracoes" xml:space="preserve">
+    <value>Espanhol - Configurações</value>
+  </data>
+  <data name="ComponentePossuiAtributoInvalido" xml:space="preserve">
+    <value>Espanhol - O componente {0} não foi preenchido corretamente.</value>
+  </data>
+  <data name="AverageValue" xml:space="preserve">
+    <value>Espanhol - Valor Médio</value>
+  </data>
+  <data name="AverageValues" xml:space="preserve">
+    <value>Espanhol - Valores Médios</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Espanhol - Estatística</value>
+  </data>
+  <data name="ExportCsvOfflineForm" xml:space="preserve">
+    <value>Espanhol - Exportar CSV</value>
+  </data>
+  <data name="OfflineFormCsvFilenamePattern" xml:space="preserve">
+    <value>Espanhol - AAM-Ensaio-{0}-{1}.csv</value>
+    <comment>Nome do arquivo que será feito o download. {0} = Id, {1} = Descrição do Form.</comment>
+  </data>
+  <data name="Append" xml:space="preserve">
+    <value>Espanhol - Sufixo</value>
+  </data>
+  <data name="Bold" xml:space="preserve">
+    <value>Espanhol - Negrito</value>
+  </data>
+  <data name="Checkbox" xml:space="preserve">
+    <value>Espanhol - Seleção Múltipla</value>
+  </data>
+  <data name="Comparison" xml:space="preserve">
+    <value>Espanhol - Comparação</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Espanhol - Data</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Espanhol - DataHora</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Espanhol - Padrão</value>
+  </data>
+  <data name="DigitCount" xml:space="preserve">
+    <value>Espanhol - Dígitos</value>
+  </data>
+  <data name="Dropdown" xml:space="preserve">
+    <value>Espanhol - Caixa de Seleção</value>
+  </data>
+  <data name="ErrorProperty" xml:space="preserve">
+    <value>Espanhol - Por favor, preencha a propriedade</value>
+  </data>
+  <data name="ErrorPropertyDuplicate" xml:space="preserve">
+    <value>Espanhol - Propriedade duplicada</value>
+  </data>
+  <data name="ErrorSelectColor" xml:space="preserve">
+    <value>Espanhol - Selecione a cor</value>
+  </data>
+  <data name="ErrorValueRangeAlert" xml:space="preserve">
+    <value>Espanhol - O valor máximo nao pode ser menor que o valor mínimo</value>
+  </data>
+  <data name="Expression" xml:space="preserve">
+    <value>Espanhol - Expressão</value>
+  </data>
+  <data name="FontColor" xml:space="preserve">
+    <value>Espanhol - Cor da fonte</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Espanhol - Tipo de fonte</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Espanhol - Tamanho da fonte</value>
+  </data>
+  <data name="FormatType" xml:space="preserve">
+    <value>Espanhol - Formato</value>
+  </data>
+  <data name="Histogram" xml:space="preserve">
+    <value>Espanhol - Histograma</value>
+  </data>
+  <data name="Inline" xml:space="preserve">
+    <value>Espanhol - Horizontal</value>
+  </data>
+  <data name="Italic" xml:space="preserve">
+    <value>Espanhol - Itálico</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Espanhol - Rótulo</value>
+  </data>
+  <data name="Large" xml:space="preserve">
+    <value>Espanhol - Grande</value>
+  </data>
+  <data name="Larger" xml:space="preserve">
+    <value>Espanhol - Maior</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Espanhol - Limite de Caracteres</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Espanhol - Máximo</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Espanhol - Médio</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Espanhol - Mínimo</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Espanhol - Nome</value>
+  </data>
+  <data name="NameGroup" xml:space="preserve">
+    <value>Espanhol - Nome do Grupo</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Espanhol - Nenhum(a)</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Espanhol - Número</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Espanhol - Opções</value>
+  </data>
+  <data name="Paragraph" xml:space="preserve">
+    <value>Espanhol - Parágrafo</value>
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>Espanhol - Título interno</value>
+  </data>
+  <data name="Prepend" xml:space="preserve">
+    <value>Espanhol - Prefixo</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Espanhol - Impressão</value>
+  </data>
+  <data name="Radiobutton" xml:space="preserve">
+    <value>Espanhol - Seleção Única</value>
+  </data>
+  <data name="RangeValues" xml:space="preserve">
+    <value>Espanhol - Faixa de valores</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Espanhol - Requerido</value>
+  </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Espanhol - Linhas</value>
+  </data>
+  <data name="SaveTemplate" xml:space="preserve">
+    <value>Espanhol - Salvar como Modelo</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Espanhol - Selecionado</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Espanhol - Configurações</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Espanhol - Tamanho</value>
+  </data>
+  <data name="Small" xml:space="preserve">
+    <value>Espanhol - Pequeno</value>
+  </data>
+  <data name="Smaller" xml:space="preserve">
+    <value>Espanhol - Menor</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Espanhol - Texto</value>
+  </data>
+  <data name="Textarea" xml:space="preserve">
+    <value>Espanhol - Área de Texto</value>
+  </data>
+  <data name="Textbox" xml:space="preserve">
+    <value>Espanhol - Caixa de Texto</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Espanhol - Hora</value>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>Espanhol - Dica</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Espanhol - Tipo</value>
+  </data>
+  <data name="Underline" xml:space="preserve">
+    <value>Espanhol - Sublinhado</value>
+  </data>
+  <data name="FormularioPossuiRespostas" xml:space="preserve">
+    <value>Espanhol - Não é possível editar este formulário, pois o mesmo já possui dados de ensaios gravados no sistema.</value>
+  </data>
+  <data name="ExpressaoInvalida" xml:space="preserve">
+    <value>Espanhol - Expressão Inválida</value>
+  </data>
+  <data name="ImportOfflineForm" xml:space="preserve">
+    <value>Espanhol - Importar</value>
+  </data>
+  <data name="ImportOfflineFormTest" xml:space="preserve">
+    <value>Espanhol - Importar ensaio</value>
+  </data>
+  <data name="Component" xml:space="preserve">
+    <value>Espanhol - Componente</value>
+  </data>
+  <data name="AlterationDate" xml:space="preserve">
+    <value>Espanhol - Data Alteração</value>
+  </data>
+  <data name="ApplicationDate" xml:space="preserve">
+    <value>Espanhol - Data Aplicação</value>
+  </data>
+  <data name="DateApplication" xml:space="preserve">
+    <value>Espanhol - Data de aplicação</value>
+  </data>
+  <data name="DateFiling" xml:space="preserve">
+    <value>Espanhol - Data de arquivamento</value>
+  </data>
+  <data name="AdjustmentDocument" xml:space="preserve">
+    <value>Espanhol - Documento de Ajuste</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Espanhol - Histórico</value>
+  </data>
+  <data name="Justification" xml:space="preserve">
+    <value>Espanhol - Justificativa</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>Espanhol - Resposta</value>
+  </data>
+  <data name="UserAlteration" xml:space="preserve">
+    <value>Espanhol - Usuário Alteração</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Espanhol - Código</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Espanhol - Descrição</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Espanhol - Equipmento</value>
+  </data>
+  <data name="InsertDate" xml:space="preserve">
+    <value>Espanhol - Data Criação</value>
+  </data>
+  <data name="InsertUser" xml:space="preserve">
+    <value>Espanhol - Usuário Criação</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Espanhol - Localização</value>
+  </data>
+  <data name="Mask" xml:space="preserve">
+    <value>Espanhol - Máscara</value>
+  </data>
+  <data name="Study" xml:space="preserve">
+    <value>Espanhol - Estudo</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Espanhol - Título</value>
+  </data>
+  <data name="DataMask" xml:space="preserve">
+    <value>Espanhol - Máscara de Dados</value>
+  </data>
+  <data name="AdjustmentDocumentMask" xml:space="preserve">
+    <value>Espanhol - Máscara de Documento de Ajuste</value>
+  </data>
+  <data name="InsertAdjustmentDocumentMask" xml:space="preserve">
+    <value>Espanhol - Cadastrar Máscara de Documento de Ajuste</value>
+  </data>
+  <data name="Menu_AdjustmentDocument" xml:space="preserve">
+    <value>Espanhol - Documento de Ajuste</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Espanhol - Documento</value>
+  </data>
+  <data name="SelectFamiliesToExportOfflineForm" xml:space="preserve">
+    <value>Espanhol - Selecionar Famílias para Exportar</value>
+  </data>
+  <data name="Families" xml:space="preserve">
+    <value>Espanhol - Famílias</value>
+  </data>
+  <data name="ListAdjustmentDocumentMask" xml:space="preserve">
+    <value>Espanhol - Lista Máscaras</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>Espanhol - Objeto</value>
+  </data>
+  <data name="CadastrarDocumentoAjuste" xml:space="preserve">
+    <value>Espanhol - Cadastrar Documento de Ajuste</value>
+  </data>
+  <data name="ListDocument" xml:space="preserve">
+    <value>Espanhol - Listar Documentos</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Espanhol - Data Criação</value>
+  </data>
+  <data name="StorageDate" xml:space="preserve">
+    <value>Espanhol - Data Arquivamento</value>
+  </data>
+  <data name="ApplicationRequested" xml:space="preserve">
+    <value>Espanhol - Solicitada aplicação</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Espanhol - Vigente</value>
+  </data>
+  <data name="Filed" xml:space="preserve">
+    <value>Espanhol - Arquivado</value>
+  </data>
+  <data name="MaskDuplicatedName" xml:space="preserve">
+    <value>Espanhol - Já existe uma máscara com este nome</value>
+  </data>
+  <data name="Gerar" xml:space="preserve">
+    <value>Espanhol - Gerar</value>
+  </data>
+  <data name="ConfiguracoesDocumentoAjuste" xml:space="preserve">
+    <value>Espanhol - Configurações Documento de Ajuste</value>
+  </data>
+  <data name="DocumentoAjusteTipoManutencaoPadrao" xml:space="preserve">
+    <value>Espanhol - Selecione o tipo de manutenção padrão para documentos de ajuste.</value>
+  </data>
+  <data name="DocumentoAjusteTipoNotaEventoPadrao" xml:space="preserve">
+    <value>Espanhol - Selecione o tipo de nota de evento padrão para documentos de ajuste.</value>
+  </data>
+  <data name="Actual" xml:space="preserve">
+    <value>Espanhol - Vigente</value>
+  </data>
+  <data name="WorkInProcess" xml:space="preserve">
+    <value>Espanhol - Em Elaboração</value>
+    <comment>teste WorkInProcess</comment>
+  </data>
+  <data name="DuplicateAdjustmentDocumentMask" xml:space="preserve">
+    <value>Espanhol - Não é possível editar esta máscara, pois a mesma já possui dados de documentos de ajuste gravados no sistema. Deseja criar outra máscara a partir desta?</value>
+  </data>
+  <data name="StudyNumber" xml:space="preserve">
+    <value>Espanhol - Número Estudo</value>
+  </data>
+  <data name="HasAdjustmentDocument" xml:space="preserve">
+    <value>Espanhol - Possui Documentos Ajuste</value>
+  </data>
+  <data name="InstalationLocal" xml:space="preserve">
+    <value>Espanhol - Local Instalação</value>
+  </data>
+  <data name="InsertAdjustmentDocumentStudy" xml:space="preserve">
+    <value>Espanhol - Cadastrar Estudo de Documento de Ajuste</value>
+  </data>
+  <data name="InvalidValue" xml:space="preserve">
+    <value>Espanhol - O valor {0} é inválido.</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Espanhol - Duplicar</value>
+  </data>
+  <data name="SelectAnObject" xml:space="preserve">
+    <value>Espanhol - Selecione um objeto.</value>
+  </data>
+  <data name="ThereAreDependenciesAdjustmentDocument" xml:space="preserve">
+    <value>Espanhol - Não foi possível excluir o documento de ajuste {0} pois existem dependências (Ordem de Serviço/Nota de Evento).</value>
+  </data>
+  <data name="SelectAMask" xml:space="preserve">
+    <value>Espanhol - Selecione uma máscara de dados.</value>
+  </data>
+  <data name="Gauss" xml:space="preserve">
+    <value>Espanhol - Gauss</value>
+  </data>
+  <data name="StatisticFailed" xml:space="preserve">
+    <value>Espanhol - Dados insuficientes para gerar função estatística</value>
+  </data>
+  <data name="CostCenterSumMustBeEqualTo100" xml:space="preserve">
+    <value>Espanhol - Soma do percentual do centro de custo deve ser igual a 100%</value>
+  </data>
+  <data name="CostCenterSumMustBeEqualTo100PM" xml:space="preserve">
+    <value>Espanhol - Soma do percentual do centro de custo no objeto {0} deve ser igual a 100%.</value>
+  </data>
+  <data name="DuplicateEquipment" xml:space="preserve">
+    <value>Espanhol - Equipamento duplicado.</value>
+  </data>
+  <data name="DuplicateLabor" xml:space="preserve">
+    <value>Espanhol - Mão de obra duplicada.</value>
+  </data>
+  <data name="DuplicateMaterial" xml:space="preserve">
+    <value>Espanhol - Material duplicado.</value>
+  </data>
+  <data name="DuplicateServiceProvider" xml:space="preserve">
+    <value>Espanhol - Contrato duplicado.</value>
+  </data>
+  <data name="DuplicateSpecialEquipment" xml:space="preserve">
+    <value>Espanhol - Equipamento duplicado.</value>
+  </data>
+  <data name="DuplicateVehicle" xml:space="preserve">
+    <value>Espanhol - Veiculo duplicado.</value>
+  </data>
+  <data name="FillAccomplishedDataTabLabor" xml:space="preserve">
+    <value>Espanhol - Preencha os dados realizados da aba Mão de Obra.</value>
+  </data>
+  <data name="FillAccomplishedDataTabMaterial" xml:space="preserve">
+    <value>Espanhol - Preencha os dados realizados da aba Materiais.</value>
+  </data>
+  <data name="FillAccomplishedDataTabServiceProvider" xml:space="preserve">
+    <value>Espanhol - Preencha os dados realizados da aba Serviços Terceiros.</value>
+  </data>
+  <data name="FillAccomplishedDataTabSpecialEquipment" xml:space="preserve">
+    <value>Espanhol - Preencha os dados realizados da aba Equipamentos Especiais.</value>
+  </data>
+  <data name="FillAccomplishedDataTabVehicle" xml:space="preserve">
+    <value>Espanhol - Preencha os dados realizados da aba Veículos.</value>
+  </data>
+  <data name="FillDataTabLabor" xml:space="preserve">
+    <value>Espanhol - Preencha os dados da aba Mão de Obra.</value>
+  </data>
+  <data name="FillDataTabMaterial" xml:space="preserve">
+    <value>Espanhol - Preencha os dados da aba Materiais.</value>
+  </data>
+  <data name="FillDataTabServiceProvider" xml:space="preserve">
+    <value>Espanhol - Preencha os dados da aba Serviços Terceiros.</value>
+  </data>
+  <data name="FillDataTabSpecialEquipment" xml:space="preserve">
+    <value>Espanhol - Preencha os dados da aba Equipamentos Especiais.</value>
+  </data>
+  <data name="FillDataTabVehicle" xml:space="preserve">
+    <value>Espanhol - Preencha os dados da aba Veículos.</value>
+  </data>
+  <data name="FinalTimeDoesNotMatchWithWorkday" xml:space="preserve">
+    <value>Espanhol - Horário de execução Final não está dentro do horário de Jornada de Trabalho.</value>
+  </data>
+  <data name="FinalTimeIsUsingRestTime" xml:space="preserve">
+    <value>Espanhol - Horário de execução Final está dentro do horário de Jornada de Descanso.</value>
+  </data>
+  <data name="InitialTimeDoesNotMatchWithWorkday" xml:space="preserve">
+    <value>Espanhol - Horário de execução Inicial não está dentro do horário de Jornada de Trabalho.</value>
+  </data>
+  <data name="InitialTimeIsUsingRestTime" xml:space="preserve">
+    <value>Espanhol - Horário de execução Inicial está dentro do horário de Jornada de Descanso.</value>
+  </data>
+  <data name="InvalidFinalPlanningDateForExecution" xml:space="preserve">
+    <value>Espanhol - Data final de planejamento para execução inválida.</value>
+  </data>
+  <data name="InvalidInitialPlanningDateForExecution" xml:space="preserve">
+    <value>Espanhol - Data inicial de planejamento para execução inválida.</value>
+  </data>
+  <data name="NoActivityListInsertedOS" xml:space="preserve">
+    <value>Espanhol - Nenhuma lista de atividade foi inserida na Ordem de Serviço.</value>
+  </data>
+  <data name="NoCostCenterInsertedOS" xml:space="preserve">
+    <value>Espanhol - Nenhum centro de custo foi inserido na Ordem de Serviço.</value>
+  </data>
+  <data name="OpeningTimeMustBeGreaterOrEqualTo0" xml:space="preserve">
+    <value>Espanhol - É necessário preencher com valor maior ou igual a 0 no campo \"Abrir com antecedência\".</value>
+  </data>
+  <data name="RecurrenceTimeMustBeAPositiveValue" xml:space="preserve">
+    <value>Espanhol - É necessário preencher com valor positivo no campo \"Ocorre a cada\".</value>
+  </data>
+  <data name="SelectUnavailabilityTimeUnitPVI" xml:space="preserve">
+    <value>Espanhol - Selecione uma unidade de tempo de indisponibilidade.</value>
+  </data>
+  <data name="TypeCurrentReading" xml:space="preserve">
+    <value>Espanhol - Preencha a leitura atual do contador.</value>
+  </data>
+  <data name="TypeFinalExecutionDate" xml:space="preserve">
+    <value>Espanhol - Preencha a data de execução final.</value>
+  </data>
+  <data name="TypeFinalExecutionTime" xml:space="preserve">
+    <value>Espanhol - Preencha o horário de execução final.</value>
+  </data>
+  <data name="TypeInitialExecutionDate" xml:space="preserve">
+    <value>Espanhol - Preencha a data de execução inicial.</value>
+  </data>
+  <data name="TypeInitialExecutionTime" xml:space="preserve">
+    <value>Espanhol - Preencha o horário de execução inicial.</value>
+  </data>
+  <data name="TypeUnavailabilityTimePVI" xml:space="preserve">
+    <value>Espanhol - Preencha um valor de tempo de indisponibilidade válido</value>
+  </data>
+  <data name="ThereAreDependenciesAdjustmentDocumentMask" xml:space="preserve">
+    <value>Espanhol - Não foi possível excluir a máscara de parametrização {0} pois existem dependências (Documento de Ajustes).</value>
+  </data>
+  <data name="TechnicalCadastre" xml:space="preserve">
+    <value>Espanhol - Técnico</value>
+  </data>
+  <data name="Prioritization" xml:space="preserve">
+    <value>Espanhol - Priorização</value>
+  </data>
+  <data name="DescriptionGroupEvaluation" xml:space="preserve">
+    <value>Espanhol - Descrição Grupo Avaliação</value>
+  </data>
+  <data name="PrioritizationIndicatorType" xml:space="preserve">
+    <value>Espanhol - Tipo Indicador Priorização</value>
+  </data>
+  <data name="OperationalHealth" xml:space="preserve">
+    <value>Espanhol - Saúde Operacional</value>
+  </data>
+  <data name="RelativeImportance" xml:space="preserve">
+    <value>Espanhol - Importância Relativa</value>
+  </data>
+  <data name="EvaluationDescription" xml:space="preserve">
+    <value>Espanhol - Descrição Avaliação</value>
+  </data>
+  <data name="EvaluationGroup" xml:space="preserve">
+    <value>Espanhol - Grupo Avaliação</value>
+  </data>
+  <data name="PrioritizationIndicator" xml:space="preserve">
+    <value>Espanhol - Indicador Priorização</value>
+  </data>
+  <data name="PlanningActivities" xml:space="preserve">
+    <value>Espanhol - Planejamento de Atividades</value>
+  </data>
+  <data name="LevelingWithoutResources" xml:space="preserve">
+    <value>Espanhol - Nivelamento sem Recursos (ordens)</value>
+  </data>
+  <data name="NumberOrder" xml:space="preserve">
+    <value>Espanhol - Número da Ordem</value>
+  </data>
+  <data name="PlanningActivitiesList" xml:space="preserve">
+    <value>Espanhol - Listar Planejamento de Atividades</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Espanhol - Prioridade</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Espanhol - Programar</value>
+  </data>
+  <data name="ResourceLeveling" xml:space="preserve">
+    <value>Espanhol - Nivelamento de Recursos</value>
+  </data>
+  <data name="TypeCalculation" xml:space="preserve">
+    <value>Espanhol - Tipo de Cálculo</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>Espanhol - De</value>
+  </data>
+  <data name="LowerTolerance" xml:space="preserve">
+    <value>Espanhol - Tolerância Inferior</value>
+  </data>
+  <data name="OrderLeveling" xml:space="preserve">
+    <value>Espanhol - Nivelamento de Ordem</value>
+  </data>
+  <data name="UpperTolerance" xml:space="preserve">
+    <value>Espanhol - Tolerância Superior</value>
+  </data>
+  <data name="Cadastre" xml:space="preserve">
+    <value>Espanhol - Cadastro</value>
+  </data>
+  <data name="EditPlanningActivitiesSettingIndicator" xml:space="preserve">
+    <value>Espanhol - Editar Configuração de Indicadores</value>
+  </data>
+  <data name="InsertPlanningActivitiesSettingIndicator" xml:space="preserve">
+    <value>Espanhol - Cadastrar Configuração de Indicadores</value>
+  </data>
+  <data name="PlanningActivitiesSettingIndicator" xml:space="preserve">
+    <value>Espanhol - Configuração de Indicadores</value>
+  </data>
+  <data name="ProgrammingData" xml:space="preserve">
+    <value>Espanhol - Dados de programação</value>
+  </data>
+  <data name="Evaluation" xml:space="preserve">
+    <value>Espanhol - Avaliação</value>
+  </data>
+  <data name="EvaluationIndicator" xml:space="preserve">
+    <value>Espanhol - Avaliação de Indicadores</value>
+  </data>
+  <data name="TypeIndicator" xml:space="preserve">
+    <value>Espanhol - Tipo Indicador</value>
+  </data>
+  <data name="GeneralIndex" xml:space="preserve">
+    <value>Espanhol - Índice Geral</value>
+  </data>
+  <data name="LocalInstallation" xml:space="preserve">
+    <value>Espanhol - Local Instalação</value>
+  </data>
+  <data name="Planning" xml:space="preserve">
+    <value>Espanhol - Planejamento</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Espanhol - Disponível</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Espanhol - Peso</value>
+  </data>
+  <data name="EvaluationGroupItens" xml:space="preserve">
+    <value>Espanhol - Item Grupo Avaliação</value>
+  </data>
+  <data name="Validation" xml:space="preserve">
+    <value>Espanhol - Validação</value>
+  </data>
+  <data name="FieldValueInvalid" xml:space="preserve">
+    <value>Espanhol - O campo {0} contém um valor inválido</value>
+  </data>
+  <data name="ImportReport" xml:space="preserve">
+    <value>Espanhol - Relatório de Importação</value>
+  </data>
+  <data name="ListAdjustmentDocuments" xml:space="preserve">
+    <value>Espanhol - Listar Documentos de Ajuste</value>
+  </data>
+  <data name="ListPrioritization" xml:space="preserve">
+    <value>Espanhol - Listar Grupos de Avaliação  </value>
+  </data>
+  <data name="CreateEvaluationGroup" xml:space="preserve">
+    <value>Espanhol - Criar Grupo de Avaliação</value>
+  </data>
+  <data name="EditEvaluationGroup" xml:space="preserve">
+    <value>Espanhol - Editar Grupo de Avaliação</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Espanhol - O campo {0} contém uma data inválida</value>
+  </data>
+  <data name="InvalidTime" xml:space="preserve">
+    <value>Espanhol - O campo {0} contém uma hora inválida</value>
+  </data>
+  <data name="ErrorServiceOrderInvalidInitialValidation" xml:space="preserve">
+    <value>Espanhol - As seguintes ordens de serviço não passaram na validação inicial para planejamento das atividades.</value>
+  </data>
+  <data name="NivelamentoDeRecursos" xml:space="preserve">
+    <value>Espanhol - Nivelamento Recursos</value>
+  </data>
+  <data name="NivelamentoOrdemServico" xml:space="preserve">
+    <value>Espanhol - Nivelamento Ordem Serviço</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Espanhol - Cronograma</value>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>Espanhol - Abril</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>Espanhol - Agosto</value>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>Espanhol - Dezembro</value>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>Espanhol - Fevereiro</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Espanhol - Janeiro</value>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>Espanhol - Julho</value>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>Espanhol - Junho</value>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>Espanhol - Março</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>Espanhol - Maio</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>Espanhol - Novembro</value>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>Espanhol - Outubro</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>Espanhol - Setembro</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Espanhol - Sexta</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Espanhol - Segunda</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Espanhol - Sábado</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Espanhol - Domingo</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Espanhol - Quinta</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Espanhol - Terça</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Espanhol - Quarta</value>
+  </data>
+  <data name="ToleranceTypeCritical" xml:space="preserve">
+    <value>Espanhol - Acima da tolerância máxima</value>
+  </data>
+  <data name="ToleranceTypeNormal" xml:space="preserve">
+    <value>Espanhol - Normal</value>
+  </data>
+  <data name="ToleranceTypeWarning" xml:space="preserve">
+    <value>Espanhol - Acima da tolerância minima</value>
+  </data>
+  <data name="ListOrderLeveling" xml:space="preserve">
+    <value>Espanhol - Lista Ordens de Serviços Niveladas Sem Recursos</value>
+  </data>
+  <data name="PlanningErrorAmountLabor" xml:space="preserve">
+    <value>Espanhol - A quantidade de mãos de obra necessária é superior à quantidade cadastrada desse recurso</value>
+  </data>
+  <data name="PlanningErrorAmountSpecialEquipment" xml:space="preserve">
+    <value>Espanhol - A quantidade de equipamentos especiais necessária é superior à quantidade cadastrada desse recurso</value>
+  </data>
+  <data name="PlanningErrorAmountVehicle" xml:space="preserve">
+    <value>Espanhol - A quantidade de veículos necessária é superior à quantidade cadastrada desse recurso</value>
+  </data>
+  <data name="PlanningErrorDate" xml:space="preserve">
+    <value>Espanhol - É necessário preencher a data de execução prevista</value>
+  </data>
+  <data name="PlanningErrorLabor" xml:space="preserve">
+    <value>Espanhol - O recurso mão de obra precisa ser preenchido</value>
+  </data>
+  <data name="PlanningErrorResource" xml:space="preserve">
+    <value>Espanhol - Não posui o recurso necessário para o planejamento</value>
+  </data>
+  <data name="PlanningErrorSpecialEquipment" xml:space="preserve">
+    <value>Espanhol - O recurso equipamento especial precisa ser preenchido</value>
+  </data>
+  <data name="PlanningErrorVehicle" xml:space="preserve">
+    <value>Espanhol - O recurso veículo precisa ser preenchido</value>
+  </data>
+  <data name="ExportXlsOfflineForm" xml:space="preserve">
+    <value>Espanhol - Exportar XLS</value>
+  </data>
+  <data name="ExportOfflineForm" xml:space="preserve">
+    <value>Espanhol - Exportar</value>
+  </data>
+  <data name="OfflineFormXlsFilenamePattern" xml:space="preserve">
+    <value>Espanhol - AAM-Ensaio-{0}-{1}.xls</value>
+    <comment>Nome do arquivo que será feito o download. {0} = Id, {1} = Descrição do Form.</comment>
+  </data>
+  <data name="LaborIdentifier" xml:space="preserve">
+    <value>Espanhol - Emp</value>
+  </data>
+  <data name="SpecialEquipmentIdentifier" xml:space="preserve">
+    <value>Espanhol - Equip</value>
+  </data>
+  <data name="VehicleIdentifier" xml:space="preserve">
+    <value>Espanhol - Vei</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Espanhol - Não encontrado</value>
+  </data>
+  <data name="Erros" xml:space="preserve">
+    <value>Espanhol - Erros</value>
+  </data>
+  <data name="HoursAbbreviation" xml:space="preserve">
+    <value>Espanhol - (horas)</value>
+  </data>
+  <data name="WarningCounterMessage" xml:space="preserve">
+    <value>Espanhol - Selecione um contador para recuperar o valor da última manutenção</value>
+  </data>
+  <data name="CadastrarFormulario" xml:space="preserve">
+    <value>Espanhol - Cadastrar Formulário</value>
+  </data>
+  <data name="OfflineFormDuplicatedCode" xml:space="preserve">
+    <value>Espanhol - Já existe um formulário com este código</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Espanhol - Índice</value>
+  </data>
+  <data name="ListEvaluationIndicator" xml:space="preserve">
+    <value>Espanhol - Listar Avaliação de Indicadores</value>
+  </data>
+  <data name="DocumentNotBound" xml:space="preserve">
+    <value>Espanhol - Nenhum documento está vinculado</value>
+  </data>
+  <data name="UnavaibleArchive" xml:space="preserve">
+    <value>Espanhol - Nenhum arquivo está disponível</value>
+  </data>
+  <data name="ConfirmationMessage" xml:space="preserve">
+    <value>Espanhol - Você tem certeza?</value>
+  </data>
+  <data name="UnboundUser" xml:space="preserve">
+    <value>Espanhol - Desvicular usuário</value>
+  </data>
+  <data name="ChangeExecution" xml:space="preserve">
+    <value>Espanhol - Mudar para execução</value>
+  </data>
+  <data name="ResourceUnavaible" xml:space="preserve">
+    <value>Espanhol - Recurso indisponível</value>
+  </data>
+  <data name="ResourceUnavaibleMessage" xml:space="preserve">
+    <value>Espanhol - É necessário validar o agendamento proposto, para verificar se os recursos estão disponíveis</value>
+  </data>
+  <data name="ResourceUnavaibleOnDate" xml:space="preserve">
+    <value>Espanhol - Na data escolhida, alguns recursos estão indisponíveis.</value>
+  </data>
+  <data name="ScheduleMessage" xml:space="preserve">
+    <value>Espanhol - A agenda foi validada com sucesso. Todos os recursos estão disponíveis. Agora você tem a opção de mudar para execução. Essa ação irá alocar todos os recursos agendados tornando-os indisponiveis para outras ordens no mesmo periodo de tempo. Deseja mudar para a execução?</value>
+  </data>
+  <data name="MaintancePlanInitialOpen" xml:space="preserve">
+    <value>Espanhol - As configurações de programação inseridas neste Plano de Manutenção implicarão na abertura imediata de uma {0}. &lt;br /&gt;Você deseja aplicar estas configurações?</value>
+  </data>
+  <data name="MaintancePlanLosingData" xml:space="preserve">
+    <value>Espanhol - Ao realizar esta ação, você pode perder dados já cadastrados. Você deseja mudar o tipo do Plano de Manutenção?</value>
+  </data>
+  <data name="ReplicateValues" xml:space="preserve">
+    <value>Espanhol - Você tem certeza que deseja replicar os valores?</value>
+  </data>
+  <data name="UnavailableFile" xml:space="preserve">
+    <value>Espanhol - Nenhum arquivo está disponível</value>
+  </data>
+  <data name="ImportData" xml:space="preserve">
+    <value>Espanhol - Você deseja importar os dados da localização superior?</value>
+  </data>
+  <data name="OverwriteData" xml:space="preserve">
+    <value>Espanhol - Ao realizar esta ação, você pode perder alguns dados já cadastrados. Deseja importar os dados da localização superior mesmo assim?</value>
+  </data>
+  <data name="Creation" xml:space="preserve">
+    <value>Espanhol - Criação</value>
+  </data>
+  <data name="LastUpdate" xml:space="preserve">
+    <value>Espanhol - Última Alteração</value>
+  </data>
+  <data name="RelatedValue" xml:space="preserve">
+    <value>Espanhol - Valor Relacionado</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Espanhol - Contábil</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Espanhol - Cancelado</value>
+  </data>
+  <data name="OSCanceled" xml:space="preserve">
+    <value>Espanhol - Esta Ordem de Serviço encontra-se Cancelada.</value>
+  </data>
+  <data name="CancelOS" xml:space="preserve">
+    <value>Espanhol - Cancelar OS</value>
+  </data>
+  <data name="Reactivate" xml:space="preserve">
+    <value>Espanhol - Reativar</value>
+  </data>
+  <data name="CancelOSMessage" xml:space="preserve">
+    <value>Espanhol - Ao cancelar esta Ordem de Serviço você estará abrindo mão de seus apontamentos e excluindo-a das consultas e 	operações.
+Deseja realmente cancelar esta Ordem de Serviço?</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Espanhol - Motivo</value>
+  </data>
+  <data name="OfflineFormErrorComboboxRelatedValue" xml:space="preserve">
+    <value>Espanhol - a Caixa de Seleção {0} deve ter todos os seus valores relacionados preenchidos</value>
+  </data>
+  <data name="OSFromPMEnabledMessage" xml:space="preserve">
+    <value>Espanhol - Essa Ordem de Serviço não pode ser cancelada pois foi gerada apartir de um Plano de Manutenção que esta ativo.</value>
+  </data>
+  <data name="UndoCancelOSMessage" xml:space="preserve">
+    <value>Espanhol - Ao reativar esta Ordem de Serviço você estará se desfazendo de todos os apontamentos e alterando-a para o status 	Início.
+Deseja continuar com a operação?</value>
+  </data>
+  <data name="ExportPVI" xml:space="preserve">
+    <value>Espanhol - Replicar valores</value>
+  </data>
+  <data name="ExportPVIMessage" xml:space="preserve">
+    <value>Espanhol - Deseja replicar os valores (PVI) para toda hierarquia de localizações que tem essa como superior?</value>
+  </data>
+  <data name="TechnicalInformation" xml:space="preserve">
+    <value>Espanhol - Informações Técnicas</value>
+  </data>
+  <data name="Part" xml:space="preserve">
+    <value>Espanhol - Parte</value>
+  </data>
+  <data name="Recognize" xml:space="preserve">
+    <value>Espanhol - Reconhecer</value>
+  </data>
+  <data name="DataEnvio" xml:space="preserve">
+    <value>Espanhol - Data Envio</value>
+  </data>
+  <data name="RecognitionUser" xml:space="preserve">
+    <value>Espanhol - Reconhecido Por</value>
+  </data>
+  <data name="RecognizeMessageText" xml:space="preserve">
+    <value>Espanhol - Você tem certeza que deseja reconhecer as notificações selecionadas?</value>
+  </data>
+  <data name="ExportPVIMessageReturn" xml:space="preserve">
+    <value>Espanhol - Os valores foram replicado(s) para {0} Localização(ões):</value>
+  </data>
+  <data name="ExportPVIMessageSubject" xml:space="preserve">
+    <value>Espanhol - Exportar valores</value>
+  </data>
+  <data name="ViewHierarchy" xml:space="preserve">
+    <value>Espanhol - Visualizar hierarquia</value>
+  </data>
+  <data name="CurrentLocation" xml:space="preserve">
+    <value>Espanhol - Localização Atual: </value>
+  </data>
+  <data name="FillEquipment" xml:space="preserve">
+    <value>Espanhol - Preencher Equipamentos</value>
+  </data>
+  <data name="FillSubEquipment" xml:space="preserve">
+    <value>Espanhol - Preencher SubEquipamentos</value>
+  </data>
+  <data name="SystemCadastre" xml:space="preserve">
+    <value>Espanhol - Cadastro Conjunto</value>
+  </data>
+  <data name="SystemAlreadyExistsWithThatName" xml:space="preserve">
+    <value>Espanhol - Já existe sistema com esse nome</value>
+  </data>
+  <data name="ListSystem" xml:space="preserve">
+    <value>Espanhol - Listar Conjuntos</value>
+  </data>
+  <data name="DataSavedSuccessfully" xml:space="preserve">
+    <value>Espanhol - Dados Salvados Com Sucesso</value>
+  </data>
+  <data name="EditSystem" xml:space="preserve">
+    <value>Espanhol - Editar Sistema</value>
+  </data>
+  <data name="ExcludeError" xml:space="preserve">
+    <value>Espanhol - Erro ao Excluir</value>
+  </data>
+  <data name="DataSavedSuccessfullySystem" xml:space="preserve">
+    <value>Espanhol - Dados Salvos com Sucesso</value>
+  </data>
+  <data name="NoRecordWasInformed" xml:space="preserve">
+    <value>Espanhol - Nenhum Registro foi Informado</value>
+  </data>
+  <data name="AnErrorOccurred" xml:space="preserve">
+    <value>Espanhol - Ocorreu um Erro</value>
+  </data>
+  <data name="AnErrorOccurredDuringTheRescue" xml:space="preserve">
+    <value>Espanhol - Ocorreu um Erro Durante o Salvamento</value>
+  </data>
+  <data name="LackedFields" xml:space="preserve">
+    <value>Espanhol - Faltaram Campos</value>
+  </data>
+  <data name="AdjustmentDocuments" xml:space="preserve">
+    <value>Espanhol - Documentos de Ajustes</value>
+  </data>
+  <data name="CentroCustos" xml:space="preserve">
+    <value>Espanhol - Centro de Custos</value>
+  </data>
+  <data name="EquipamentosEspeciais" xml:space="preserve">
+    <value>Espanhol - Equipamentos Especiais</value>
+  </data>
+  <data name="GrupoCaracteristicas" xml:space="preserve">
+    <value>Espanhol - Grupo de Caracteristicas</value>
+  </data>
+  <data name="ListaAtividades" xml:space="preserve">
+    <value>Espanhol - Lista de Atividades</value>
+  </data>
+  <data name="OfflineFormTests" xml:space="preserve">
+    <value>Espanhol - Ensaios</value>
+  </data>
+  <data name="OrdemServicos" xml:space="preserve">
+    <value>Espanhol - Ordem de Serviços</value>
+  </data>
+  <data name="PlanejamentoManutencao" xml:space="preserve">
+    <value>Espanhol - Planejamento de Manutenção</value>
+  </data>
+  <data name="Studies" xml:space="preserve">
+    <value>Espanhol - Estudos</value>
+  </data>
+  <data name="TipoNotaEventos" xml:space="preserve">
+    <value>Espanhol - Tipo de Nota de Eventos</value>
+  </data>
+  <data name="ErrorValueRangeRequired" xml:space="preserve">
+    <value>Espanhol - A faixa de valores de Alerta devem estar dentro da faixa de Valores Requeridos</value>
+  </data>
+  <data name="RangeValuesAlert" xml:space="preserve">
+    <value>Espanhol - Faixa de Valores (Alerta)</value>
+  </data>
+  <data name="RangeValuesRequired" xml:space="preserve">
+    <value>Espanhol - Faixa de Valores (Obrigatório)</value>
+  </data>
+  <data name="SystemList" xml:space="preserve">
+    <value>Espanhol - Listar Conjuntos</value>
+  </data>
+  <data name="PartList" xml:space="preserve">
+    <value>Espanhol - Listar Partes</value>
+  </data>
+  <data name="PartCadastre" xml:space="preserve">
+    <value>Espanhol - Cadastro Parte</value>
+  </data>
+  <data name="PartEdit" xml:space="preserve">
+    <value>Espanhol - Editar Parte</value>
+  </data>
+  <data name="Finalize" xml:space="preserve">
+    <value>Espanhol - Finalizar</value>
+  </data>
+  <data name="FinalizeMessageText" xml:space="preserve">
+    <value>Espanhol - Você tem certeza que deseja finalizar as notificações selecionadas?</value>
+  </data>
+  <data name="ErrorValueRange" xml:space="preserve">
+    <value>Espanhol - O valor máximo nao pode ser menor que o valor mínimo</value>
+  </data>
+  <data name="IdObject" xml:space="preserve">
+    <value>Espanhol - Objeto ID</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Espanhol - Mensagem</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Espanhol - Usuário</value>
+  </data>
+  <data name="ThereIsAlreadyAComponentOfThatName" xml:space="preserve">
+    <value>Espanhol - Já Existe um componente com esse nome</value>
+  </data>
+  <data name="Notified" xml:space="preserve">
+    <value>Espanhol - Notificada</value>
+  </data>
+  <data name="Recognized" xml:space="preserve">
+    <value>Espanhol - Reconhecida</value>
+  </data>
+  <data name="CadastrarOcorrencia" xml:space="preserve">
+    <value>Espanhol - Cadastrar Ocorrência</value>
+  </data>
+  <data name="EditarOcorrencia" xml:space="preserve">
+    <value>Espanhol - Editar Ocorrência</value>
+  </data>
+  <data name="ListarOcorrencia" xml:space="preserve">
+    <value>Espanhol - Listar Ocorrências</value>
+  </data>
+  <data name="CadastrarCausa" xml:space="preserve">
+    <value>Espanhol - Cadastrar Causa</value>
+  </data>
+  <data name="EditarCausa" xml:space="preserve">
+    <value>Espanhol - Editar Causa</value>
+  </data>
+  <data name="ListarCausa" xml:space="preserve">
+    <value>Espanhol - Listar Causa</value>
+  </data>
+  <data name="IgnoreField" xml:space="preserve">
+    <value>Espanhol - Ignorar campo</value>
+  </data>
+  <data name="ComponentList" xml:space="preserve">
+    <value>Espanhol - Listar Componente</value>
+  </data>
+  <data name="ComponentEdit" xml:space="preserve">
+    <value>Espanhol - Editar Componente</value>
+  </data>
+  <data name="ComponentCadastre" xml:space="preserve">
+    <value>Espanhol - Cadastro Componente</value>
+  </data>
+  <data name="DisplayOperationalTeams" xml:space="preserve">
+    <value>Espanhol - Exibir equipes operacionais</value>
+  </data>
+  <data name="ListService" xml:space="preserve">
+    <value>Espanhol - Listar Serviços</value>
+  </data>
+  <data name="InsertService" xml:space="preserve">
+    <value>Espanhol - Cadastrar Serviço</value>
+  </data>
+  <data name="ErrorServiceInsertNameExists" xml:space="preserve">
+    <value>Espanhol - Já existe um Serviço com esse nome</value>
+  </data>
+  <data name="UpdateService" xml:space="preserve">
+    <value>Espanhol - Editar Serviço</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Espanhol - Coluna</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>Espanhol - Linha</value>
+  </data>
+  <data name="PlanosManutencao" xml:space="preserve">
+    <value>Espanhol - Planos de Manutenção</value>
+  </data>
+  <data name="ErrorMultipleRecurrenceProgramming" xml:space="preserve">
+    <value>Espanhol - Os valores de Ocorre a cada na Configurações de Programação tem que ser muliplos</value>
+  </data>
+  <data name="ScheduleErrorDeleteMessage" xml:space="preserve">
+    <value>Espanhol - Um ou mais  itens selecionados não pode ser ser excluído pois foi criado na fase de agendamento.</value>
+  </data>
+  <data name="CreateCopy" xml:space="preserve">
+    <value>Espanhol - Inserir Copia</value>
+  </data>
+  <data name="Counters" xml:space="preserve">
+    <value>Espanhol - Contadores</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Espanhol - Abrir</value>
+  </data>
+  <data name="FilingAdjustmentDocument" xml:space="preserve">
+    <value>Espanhol - Arquivamento</value>
+  </data>
+  <data name="FilingAdjustmentDocumentCancelOS" xml:space="preserve">
+    <value>Espanhol - Foram selecionados Documentos de Ajustes que possuem Ordens de Serviço abertas. Essas ordens serão canceladas para que os ajustes sejam arquivados. Confirma o cancelamento?</value>
+  </data>
+  <data name="CancelOSfromAdjustmentDocumentFiling" xml:space="preserve">
+    <value>Espanhol - Essa ordem foi cancelada por causa do documento de ajuste que foi selecionado para ser arquivado.</value>
+  </data>
+  <data name="NoneSelected" xml:space="preserve">
+    <value>Espanhol - Nenhum item selecionado. Deseja prosseguir?</value>
+  </data>
+  <data name="ServiceOrderOvertime" xml:space="preserve">
+    <value>Espanhol - O período apontado está fora do horário de trabalho e será contabilizado como hora-extra</value>
+  </data>
+  <data name="EndOfWarrantyMustBeGreaterOrEqualTo" xml:space="preserve">
+    <value>Espanhol - Término da Garantia deve ser maior que {0}</value>
+  </data>
+  <data name="RequiredFieldForCalculatingWarranty" xml:space="preserve">
+    <value>Espanhol - O campo Inicio Garantia é obrigatório para cálculo automático de garantia</value>
+  </data>
+  <data name="AlreadyApplicationRequested" xml:space="preserve">
+    <value>Espanhol - Já foi solicitada aplicação para este documento de ajuste</value>
+  </data>
+  <data name="AdjustmentDocumentJustificationeventNote" xml:space="preserve">
+    <value>Espanhol - Foi gerada uma nota de evento para realizar o ajuste.</value>
+  </data>
+  <data name="AdjustmentDocumentServiceOrderOpened" xml:space="preserve">
+    <value>Espanhol - Já existe uma Ordem de Serviço aberta para este plano.</value>
+  </data>
+  <data name="AdjustmentDocumentJustificationServiceOrderCanceled" xml:space="preserve">
+    <value>Espanhol - A Ordem de Serviço gerada para aplicação foi cancelada.</value>
+  </data>
+  <data name="ServiceOrderFinishedByMobile" xml:space="preserve">
+    <value>Espanhol - Ordem de Serviço finalizada pelo aplicativo móvel</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Espanhol - Voltar</value>
+  </data>
+  <data name="OfflineFormDuplicatedTemplateComponent" xml:space="preserve">
+    <value>Espanhol - Já existe um template de formulário de mesmo tipo [{0}] e nome [{1}].</value>
+  </data>
+  <data name="DependentServiceOrderEquipment" xml:space="preserve">
+    <value>Espanhol - Esse equipamento está vinculado a uma Ordem de Serviço e não pode ser excluído.</value>
+  </data>
+  <data name="ERPCode" xml:space="preserve">
+    <value>Espanhol - Código do ERP</value>
+  </data>
+  <data name="Leader" xml:space="preserve">
+    <value>Espanhol - Líder</value>
+  </data>
+  <data name="SelectLeader" xml:space="preserve">
+    <value>Espanhol - Definir como líder</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Espanhol - Para Baixo</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Espanhol - Para Cima</value>
+  </data>
+  <data name="CheckCounter" xml:space="preserve">
+    <value>Espanhol - Verificar Contador</value>
+  </data>
+  <data name="PerformTest" xml:space="preserve">
+    <value>Espanhol - Realizar Ensaio</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Espanhol - Simples</value>
+  </data>
+  <data name="ActivityType" xml:space="preserve">
+    <value>Espanhol - Tipo Atividade</value>
+  </data>
+  <data name="UsarContador" xml:space="preserve">
+    <value>Espanhol - Usar este contador</value>
+  </data>
+  <data name="Copiar" xml:space="preserve">
+    <value>Espanhol - Copiar</value>
+  </data>
+  <data name="Editar" xml:space="preserve">
+    <value>Espanhol - Editar</value>
+  </data>
+  <data name="DesativarTemplateContador" xml:space="preserve">
+    <value>Espanhol - Todos os registros históricos desse contador serão arquivados e seus planos de manutenção serão desativados. Deseja desabilitar o contador?</value>
+  </data>
+  <data name="MaintenancePlanWithoutSponsor" xml:space="preserve">
+    <value>Espanhol - Nenhum responsável foi inserido no objeto {0}</value>
+  </data>
+  <data name="CounterRequired" xml:space="preserve">
+    <value>Espanhol - É necessário selecionar um contador.</value>
+  </data>
+  <data name="MaintenancePlanWithoutActivitiesList" xml:space="preserve">
+    <value>Espanhol - Nenhuma lista de atividade foi inserida no Plano de Manutenção.</value>
+  </data>
+  <data name="MaintenancePlanWithoutCostCenter" xml:space="preserve">
+    <value>Espanhol - Nenhum centro de custo foi inserido no Plano de Manutenção.</value>
+  </data>
+  <data name="OpeningCounterMustBeGreaterOrEqualTo0" xml:space="preserve">
+    <value>Espanhol - É necessário preencher com valor maior ou igual a 0 no campo \"Abrir com antecedência\".</value>
+  </data>
+  <data name="RecurrenceCounterMustBeAPositiveValue" xml:space="preserve">
+    <value>Espanhol - É necessário preencher com valor positivo no campo \"Ocorre a cada\".</value>
+  </data>
+  <data name="MaintenancePlanInactiveCauses" xml:space="preserve">
+    <value>Espanhol - As configurações necessárias são:</value>
+  </data>
+  <data name="OcorreCadaContador" xml:space="preserve">
+    <value>Espanhol - Ocorre a cada</value>
+  </data>
+  <data name="AtivoEquipamento" xml:space="preserve">
+    <value>Espanhol - Ativo no Equipamento</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Espanhol - Concluído</value>
+  </data>
+  <data name="Executing" xml:space="preserve">
+    <value>Espanhol - Em execução</value>
+  </data>
+  <data name="Suspended" xml:space="preserve">
+    <value>Espanhol - Suspensa</value>
+  </data>
+  <data name="Resource" xml:space="preserve">
+    <value>Espanhol - Recurso</value>
+  </data>
+  <data name="InternalTeam" xml:space="preserve">
+    <value>Espanhol - Equipe Interna</value>
+  </data>
+  <data name="Outsourced" xml:space="preserve">
+    <value>Espanhol - Terceirizados</value>
+  </data>
+  <data name="AdjustmentDocumentRevision" xml:space="preserve">
+    <value>Espanhol - Não é permitido a alteração para o documento de ajuste selecionado. Deseja efetuar uma revisão para o mesmo?</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Espanhol - Por Atividade</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Espanhol - Geral</value>
+  </data>
+  <data name="AdjustmentDocumentNumber" xml:space="preserve">
+    <value>Espanhol - Número Doc. de Ajuste</value>
+  </data>
+  <data name="AdjustmentDocumentJustificationRevision" xml:space="preserve">
+    <value>Espanhol - Documento de ajuste originou uma revisão</value>
+  </data>
+  <data name="TimeDistribution" xml:space="preserve">
+    <value>Espanhol - Distribuição do tempo</value>
+  </data>
+  <data name="PlannedActivities" xml:space="preserve">
+    <value>Espanhol - Atividades Planejadas</value>
+  </data>
+  <data name="DataTablesEmptyTable" xml:space="preserve">
+    <value>Espanhol - Nenhuma informação está disponível</value>
+  </data>
+  <data name="DataTablesInfo" xml:space="preserve">
+    <value>Espanhol - Mostrando o(s) registro(s) _START_ até _END_ de um total de _TOTAL_</value>
+  </data>
+  <data name="DataTablesInfoEmpty" xml:space="preserve">
+    <value>Espanhol - Mostrando o registro 0 até 0 de um total de 0</value>
+  </data>
+  <data name="DataTablesInfoFiltered" xml:space="preserve">
+    <value>Espanhol - (filtrado de um total de _MAX_ registros)</value>
+  </data>
+  <data name="DataTablesLengthMenu" xml:space="preserve">
+    <value>Espanhol - Mostrando _MENU_ registros por página</value>
+  </data>
+  <data name="DataTablesLoadingRecords" xml:space="preserve">
+    <value>Espanhol - Carregando...</value>
+  </data>
+  <data name="DataTablesPaginateFirst" xml:space="preserve">
+    <value>Espanhol - Primeiro</value>
+  </data>
+  <data name="DataTablesPaginateLast" xml:space="preserve">
+    <value>Espanhol - Último</value>
+  </data>
+  <data name="DataTablesPaginateNext" xml:space="preserve">
+    <value>Espanhol - Próximo</value>
+  </data>
+  <data name="DataTablesPaginatePrevious" xml:space="preserve">
+    <value>Espanhol - Anterior</value>
+  </data>
+  <data name="DataTablesProcessing" xml:space="preserve">
+    <value>Espanhol - Carregando...</value>
+  </data>
+  <data name="DataTablesSearch" xml:space="preserve">
+    <value>Espanhol - Pesquisar:</value>
+  </data>
+  <data name="DataTablesZeroRecords" xml:space="preserve">
+    <value>Espanhol - Nenhuma informação foi localizada</value>
+  </data>
+  <data name="PredictedTime" xml:space="preserve">
+    <value>Espanhol - Tempo Previsto</value>
+  </data>
+  <data name="AmountDistribution" xml:space="preserve">
+    <value>Espanhol - Distribuição de Qtd.</value>
+  </data>
+  <data name="SuspensionJustification" xml:space="preserve">
+    <value>Espanhol - Justificativa de Suspensão</value>
+  </data>
+  <data name="ActivityStatus" xml:space="preserve">
+    <value>Espanhol - Status Atividade</value>
+  </data>
+  <data name="CompletedActivities" xml:space="preserve">
+    <value>Espanhol - Concluídas</value>
+  </data>
+  <data name="PendingActivities" xml:space="preserve">
+    <value>Espanhol - Pendentes</value>
+  </data>
+  <data name="PerformedActivities" xml:space="preserve">
+    <value>Espanhol - Executadas</value>
+  </data>
+  <data name="SuspendedActivities" xml:space="preserve">
+    <value>Espanhol - Suspensas</value>
+  </data>
+  <data name="AdjustmentDocumentNumberColumn" xml:space="preserve">
+    <value>Espanhol - Nr. Doc. Ajuste</value>
+  </data>
+  <data name="JustificationLengthError" xml:space="preserve">
+    <value>Espanhol - Justificativa deve conter 20 caracteres</value>
+  </data>
+  <data name="ViewHistory" xml:space="preserve">
+    <value>Espanhol - Visualizar Histórico</value>
+  </data>
+  <data name="ErrorChangeActivitiesStatus" xml:space="preserve">
+    <value>Espanhol - Não foi possível alterar o status da atividade.</value>
+  </data>
+  <data name="HistoryCounterErrorMaxDigits" xml:space="preserve">
+    <value>Espanhol - A leitura atual possui uma quantidade de dígitos maior que a permitida</value>
+  </data>
+  <data name="FillEquipmentOrFamily" xml:space="preserve">
+    <value>Espanhol - Selecione o objeto Equipamento/Família.</value>
+  </data>
+  <data name="HistoryGreaterThanMaxDigitsAllowed" xml:space="preserve">
+    <value>Espanhol - Há leituras que ultrapassam a quantidade máxima de dígitos. </value>
+  </data>
+  <data name="DependentCounterEquipment" xml:space="preserve">
+    <value>Espanhol - Esse equipamento está vinculado a um Contador e não pode ser excluído.</value>
+  </data>
+  <data name="DaysWeek" xml:space="preserve">
+    <value>Espanhol - Dia da Semana</value>
+  </data>
+  <data name="VehicleCepRequired" xml:space="preserve">
+    <value>Espanhol - O preenchimento é obrigatório.</value>
+  </data>
+  <data name="GeneralCatalogPrice" xml:space="preserve">
+    <value>Espanhol - Catalogo Geral de Preços</value>
+  </data>
+  <data name="ListGeneralCatalogPrice" xml:space="preserve">
+    <value>Espanhol - Listar Catalogo geral de preços</value>
+  </data>
+  <data name="Menu_CatalogPrice" xml:space="preserve">
+    <value>Espanhol - Catalogo de Preço</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Espanhol - Expirado</value>
+  </data>
+  <data name="ExpiredContracts" xml:space="preserve">
+    <value>Espanhol - Contratos Expirados</value>
+  </data>
+  <data name="AdvanceRenovation" xml:space="preserve">
+    <value>Espanhol - Antecedência da Notificação</value>
+  </data>
+  <data name="PeriodicityRenovation" xml:space="preserve">
+    <value>Espanhol - Periodicidade de Renovação</value>
+  </data>
+  <data name="UnitCost" xml:space="preserve">
+    <value>Espanhol - Custo R$</value>
+  </data>
+  <data name="ValidityEnd" xml:space="preserve">
+    <value>Espanhol - Término da Vigência</value>
+  </data>
+  <data name="ValidityStart" xml:space="preserve">
+    <value>Espanhol - Início da Vigência</value>
+  </data>
+  <data name="AdvanceNotice" xml:space="preserve">
+    <value>Espanhol - Antecedência da notificação</value>
+  </data>
+  <data name="Contributor" xml:space="preserve">
+    <value>Espanhol - Colaborador</value>
+  </data>
+  <data name="EndValidity" xml:space="preserve">
+    <value>Espanhol - Termíno da Vigência</value>
+  </data>
+  <data name="FrequencyRenovation" xml:space="preserve">
+    <value>Espanhol - Periodicidade de renovação</value>
+  </data>
+  <data name="StartValidity" xml:space="preserve">
+    <value>Espanhol - Início da Vigência</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Espanhol - Empresa</value>
+  </data>
+  <data name="CPF" xml:space="preserve">
+    <value>Espanhol - CPF</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Espanhol - Seção</value>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Espanhol - Fornecedor</value>
+  </data>
+  <data name="CatalogoPreco" xml:space="preserve">
+    <value>Espanhol - Catálogo Preço</value>
+  </data>
+  <data name="Termino" xml:space="preserve">
+    <value>Espanhol - Término</value>
+  </data>
+  <data name="PartPeriod" xml:space="preserve">
+    <value>Espanhol - Período Parcial</value>
+  </data>
+  <data name="RangeTypeValidity" xml:space="preserve">
+    <value>Espanhol - Tipo de Vigência</value>
+  </data>
+  <data name="WithinPeriod" xml:space="preserve">
+    <value>Espanhol - Dentro do Período</value>
+  </data>
+  <data name="CheckForExpiredContractsJob" xml:space="preserve">
+    <value>Espanhol - Processo de Verificação de Contratos Expirados</value>
+  </data>
+  <data name="CheckForExpiredContractsJobDescription" xml:space="preserve">
+    <value>Espanhol - Realiza a verificação de quais contratos de serviços estão expirados e dispara notificações, no sistema e por e-mail, para os usuários responsáveis.</value>
+  </data>
+  <data name="ValidityEndDate" xml:space="preserve">
+    <value>Espanhol - Data de término da Vigência</value>
+  </data>
+  <data name="ValidityStartDate" xml:space="preserve">
+    <value>Espanhol - Data de início da Vigência</value>
+  </data>
+  <data name="CostType" xml:space="preserve">
+    <value>Espanhol - Tipo de Custo</value>
+  </data>
+  <data name="Fixed" xml:space="preserve">
+    <value>Espanhol - Fixo</value>
+  </data>
+  <data name="PercentReadjustment" xml:space="preserve">
+    <value>Espanhol - % de Reajuste</value>
+  </data>
+  <data name="Unitary" xml:space="preserve">
+    <value>Espanhol - Unitário</value>
+  </data>
+  <data name="Readjustment" xml:space="preserve">
+    <value>Espanhol - Reajuste</value>
+  </data>
+  <data name="AdjustmentPercentage" xml:space="preserve">
+    <value>Espanhol - % de Ajuste</value>
+  </data>
+  <data name="IncludeValidity" xml:space="preserve">
+    <value>Espanhol - Incluir Nova Vigência</value>
+  </data>
+  <data name="ConfigurationModal" xml:space="preserve">
+    <value>Espanhol - Configurações do Item</value>
+  </data>
+  <data name="PorDataDeterminada" xml:space="preserve">
+    <value>Espanhol - Por Data Determinada</value>
+  </data>
+  <data name="PorPeriodo" xml:space="preserve">
+    <value>Espanhol - Por Período</value>
+  </data>
+  <data name="RenewalDate" xml:space="preserve">
+    <value>Espanhol - Dia/Mês da Renovação</value>
+  </data>
+  <data name="RenewalType" xml:space="preserve">
+    <value>Espanhol - Tipo de Renovação</value>
+  </data>
+  <data name="InicioVigencia" xml:space="preserve">
+    <value>Espanhol - Início da Vigência</value>
+  </data>
+  <data name="TerminoVigencia" xml:space="preserve">
+    <value>Espanhol - Termino da Vigência</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Espanhol - Vigência</value>
+  </data>
+  <data name="SectionResponsable" xml:space="preserve">
+    <value>Espanhol - Seção Responsável</value>
+  </data>
+  <data name="ExpiredContract" xml:space="preserve">
+    <value>Espanhol - Contrato Expirado</value>
+  </data>
+  <data name="ExpiredContractMessage" xml:space="preserve">
+    <value>Espanhol - O Contrato {0} está expirado, causando interrupção do fornecimento de alguns serviços. Entre em contato com o administrador do sistema.</value>
+  </data>
+  <data name="TipoNotificacao" xml:space="preserve">
+    <value>Espanhol - Tipo de Notificação</value>
+  </data>
+  <data name="AtividadesRealizadas" xml:space="preserve">
+    <value>Espanhol - Atividades Realizadas</value>
+  </data>
+  <data name="Executado" xml:space="preserve">
+    <value>Espanhol - Executado</value>
+  </data>
+  <data name="RoundTrip" xml:space="preserve">
+    <value>Espanhol - Ida e Volta</value>
+  </data>
+  <data name="Selecionar" xml:space="preserve">
+    <value>Espanhol - Selecionar</value>
+  </data>
+  <data name="Contadores" xml:space="preserve">
+    <value>Espanhol - Contadores</value>
+  </data>
+  <data name="EquipamentoPai" xml:space="preserve">
+    <value>Espanhol - Equipamento Pai</value>
+  </data>
+  <data name="RealizarLeitura" xml:space="preserve">
+    <value>Espanhol - Realizar Leitura</value>
+  </data>
+  <data name="ServiceOrderNotFound" xml:space="preserve">
+    <value>Espanhol - Ordem de serviço não encontrada</value>
+  </data>
+  <data name="ActivitiesNotCompleted" xml:space="preserve">
+    <value>Espanhol - Existem atividades que não foram concluídas</value>
+  </data>
+  <data name="NumberContract" xml:space="preserve">
+    <value>Espanhol - N° do Contrato</value>
+  </data>
+  <data name="ContractsAgreements" xml:space="preserve">
+    <value>Espanhol - Contratos e Acordos</value>
+  </data>
+  <data name="CatalogPriceDuplicate" xml:space="preserve">
+    <value>Espanhol - Período de vigência duplicada</value>
+  </data>
+  <data name="CatalogPriceRequiredMessage" xml:space="preserve">
+    <value>Espanhol - É obrigatório o preenchimento do periodo e o valor (custo ou reajuste)</value>
+  </data>
+  <data name="CostRequired" xml:space="preserve">
+    <value>Espanhol - É necessário preencher o campo Custo</value>
+  </data>
+  <data name="NoCatalogPriceToCalculateCost" xml:space="preserve">
+    <value>Espanhol - Não existe nenhuma vigência para o calculo por porcentagem de reajuste</value>
+  </data>
+  <data name="ReadjustmentRequired" xml:space="preserve">
+    <value>Espanhol - É necessário preencher o campo Reajuste</value>
+  </data>
+  <data name="ResponsableRequired" xml:space="preserve">
+    <value>Espanhol - É necessário preencher o Responsável</value>
+  </data>
+  <data name="ErrorChangeStatusOS" xml:space="preserve">
+    <value>Espanhol - Não foi possível mudar o status da ordem de serviço</value>
+  </data>
+  <data name="FormularioEnsaio" xml:space="preserve">
+    <value>Espanhol - Formulário de Ensaio</value>
+  </data>
+  <data name="RealizarEnsaio" xml:space="preserve">
+    <value>Espanhol - Realizar Ensaio</value>
+  </data>
+  <data name="NoCatalogPriceToProvidersList" xml:space="preserve">
+    <value>Espanhol - É necessário selecionar pelo menos um Fornecedor</value>
+  </data>
+  <data name="NoCatalogPriceToThirdPartyServicesList" xml:space="preserve">
+    <value>Espanhol - É necessário selecionar pelo menos um Serviço</value>
+  </data>
+  <data name="CatalogPriceRenewalPeriodicityJob" xml:space="preserve">
+    <value>Espanhol - Processo de Verificação de renovação de vigência para Catalog de Preço</value>
+  </data>
+  <data name="CatalogPriceRenewalPeriodicityJobDescription" xml:space="preserve">
+    <value>Espanhol - Realiza a verificação de quais vigência estão em periodo de renovação para gerar notificações para os usuários responsáveis.</value>
+  </data>
+  <data name="ScheduleInvalid" xml:space="preserve">
+    <value>Espanhol - Agendamento inválido</value>
+  </data>
+  <data name="NoticeCatalogPriceRenewalPeriodicity" xml:space="preserve">
+    <value>Espanhol - Notificação com antecedência por Período de Renovação (Catalogo de Preço)</value>
+  </data>
+  <data name="InvalidPVI" xml:space="preserve">
+    <value>Espanhol - Tempo de Indisponibilidade não informado</value>
+  </data>
+  <data name="DesejaFinalizarOrdemServico" xml:space="preserve">
+    <value>Espanhol - Deseja finalizar a ordem de serviço?</value>
+  </data>
+  <data name="AdjusmentDocumentFiled" xml:space="preserve">
+    <value>Espanhol - Foi executado um Documento de Ajuste atualizado</value>
+  </data>
+  <data name="Providers" xml:space="preserve">
+    <value>Espanhol - Fornecedores</value>
+  </data>
+  <data name="ChangePhaseNotPermited" xml:space="preserve">
+    <value>Espanhol - Mudança de fase não permitida</value>
+  </data>
+  <data name="InvalidChangePhaseToBeginOSByMaintenancePlan" xml:space="preserve">
+    <value>Espanhol - Não é permitida a volta da ordem de serviço para início pois ela foi gerada por um plano de manutenção</value>
+  </data>
+  <data name="LeituraContador" xml:space="preserve">
+    <value>Espanhol - Leitura de Contador</value>
+  </data>
+  <data name="ErrorServiceOrderRelationshipWithOfflineFormTest" xml:space="preserve">
+    <value>Espanhol - Não foi possível relacionar os Ensaios selecionados.</value>
+  </data>
+  <data name="Ilegivel" xml:space="preserve">
+    <value>Espanhol - Ilegível</value>
+  </data>
+  <data name="JusticationRequired" xml:space="preserve">
+    <value>Espanhol - É necessário preencher o campo Justificativa</value>
+  </data>
+  <data name="NotLastReading" xml:space="preserve">
+    <value>Espanhol - Não é permitida a alteração de leituras realizadas que possuem leituras posterioes</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Espanhol - Aguarde, processando...</value>
+  </data>
+  <data name="InformacaoTecnicaCamposObrigatorios" xml:space="preserve">
+    <value>Espanhol - Os campos Sistema, Causa, Serviço e Ocorrência são obrigatórios</value>
+  </data>
+  <data name="EnsaiosPendentes" xml:space="preserve">
+    <value>Espanhol - Existe(m) ensaio(s) pendente(s)</value>
+  </data>
+  <data name="ScheduledResource" xml:space="preserve">
+    <value>Espanhol - Recursos agendados não podem ser excluídos na fase de Execução!</value>
+  </data>
+  <data name="ServiceOrdemCreateError" xml:space="preserve">
+    <value>Espanhol - Não foi possível criar a ordem de serviço. Verifique se todos os campos foram preenchidos corretamente.</value>
+  </data>
+  <data name="ServiceOrderSuccessCreated" xml:space="preserve">
+    <value>Espanhol - Ordem de serviço criada com sucesso</value>
+  </data>
+  <data name="ServiceOrderUpdateSuccess" xml:space="preserve">
+    <value>Espanhol - Ordem de serviço atualizada com sucesso</value>
+  </data>
+  <data name="ServiceOrdemChangePhaseError" xml:space="preserve">
+    <value>Espanhol - Não foi possível mudar a ordem de serviço de fase</value>
+  </data>
+  <data name="ServiceOrderUpdateError" xml:space="preserve">
+    <value>Espanhol - Não foi possível salvar os dados da ordem de serviço. Verifique se todos os campos obrigatório foram informados</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>Espanhol - Desculpe, ocorreu um erro inesperado. </value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>Espanhol - Desculpe, você não tem permissão para realizar essa operação</value>
+  </data>
+  <data name="VeiculoCalcularDistanciaErro" xml:space="preserve">
+    <value>Espanhol - Não foi possível calcular a distância entre origem e destino</value>
+  </data>
+  <data name="VeiculoEnderecoNaoEncontrado" xml:space="preserve">
+    <value>Espanhol - O endereço do veículo não foi encontrado</value>
+  </data>
+  <data name="JanelaExtrapolacao" xml:space="preserve">
+    <value>Espanhol - Janela de Extrapolação</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Espanhol - Dias</value>
+  </data>
+  <data name="EndValidityLessthanStartValidity" xml:space="preserve">
+    <value>Espanhol - Data final menor que data inicial</value>
+  </data>
+  <data name="EndValidityRequired" xml:space="preserve">
+    <value>Espanhol - O campo Data de término da Vigência é obrigatório</value>
+  </data>
+  <data name="StartValidityRequired" xml:space="preserve">
+    <value>Espanhol - O campo Data de início da Vigência é obrigatório</value>
+  </data>
+  <data name="DataLeituraInvalida" xml:space="preserve">
+    <value>Espanhol - A data da leitura atual deve ser maior que a data da última leitura</value>
+  </data>
+  <data name="OfflineFormTestNotFound" xml:space="preserve">
+    <value>Espanhol - Formulário não encontrado</value>
+  </data>
+  <data name="ContadorOSPendente" xml:space="preserve">
+    <value>Espanhol - Existe contador com pendência de leitura na ordem de serviço</value>
+  </data>
+  <data name="ContadorPMPendente" xml:space="preserve">
+    <value>Espanhol - Existe contador com pendência de leitura no plano de manutenção</value>
+  </data>
+  <data name="DataPrevistaInvalida" xml:space="preserve">
+    <value>Espanhol - Data prevista inválida</value>
+  </data>
+  <data name="ContadorOSEditarLeituraErro" xml:space="preserve">
+    <value>Espanhol - Não foi possível alterar a leitura no contador da ordem de serviço</value>
+  </data>
+  <data name="ContadorOSInserirLeituraErro" xml:space="preserve">
+    <value>Espanhol - Não foi possível inserir uma nova leitura no contador da ordem de serviço</value>
+  </data>
+  <data name="ContadorPMEditarLeituraErro" xml:space="preserve">
+    <value>Espanhol - Não foi possível alterar a leitura no contador do plano de manutenção</value>
+  </data>
+  <data name="ContadorPMInserirLeituraErro" xml:space="preserve">
+    <value>Espanhol - Não foi possível inserir uma nova leitura no contador do plano de manutenção</value>
+  </data>
+  <data name="GeralNotFound" xml:space="preserve">
+    <value>Espanhol - Não foi encontrada a configuração geral da empresa</value>
+  </data>
+  <data name="DataLeituraRequired" xml:space="preserve">
+    <value>Espanhol - O campo Data é obrigatório</value>
+  </data>
+  <data name="NotificationAntecedenceError" xml:space="preserve">
+    <value>Espanhol - Antecedência da notificação deve ser no máximo 365 dias</value>
+  </data>
+  <data name="AdjustmentForm" xml:space="preserve">
+    <value>Espanhol - Formulário de Ajuste</value>
+  </data>
+  <data name="GoogleDistanceMatrixStatus_NOT_FOUND" xml:space="preserve">
+    <value>Espanhol - Não foi possível geocodificar a origem e/ou destino dos endereços</value>
+  </data>
+  <data name="GoogleDistanceMatrixStatus_ZERO_RESULTS" xml:space="preserve">
+    <value>Espanhol - Não foi possível encontrar nenhum trajeto entre a origem e o destino</value>
+  </data>
+  <data name="LaborDiary" xml:space="preserve">
+    <value>Espanhol - Diário de Obras</value>
+  </data>
+  <data name="Filters" xml:space="preserve">
+    <value>Espanhol - Filtros</value>
+  </data>
+  <data name="Activities" xml:space="preserve">
+    <value>Espanhol - Atividades</value>
+  </data>
+  <data name="Diary" xml:space="preserve">
+    <value>Espanhol - Diário</value>
+  </data>
+  <data name="ErrorActivityInUse" xml:space="preserve">
+    <value>Espanhol - A(s) Atividade(s) não pôde ser removida por estar em uso no sistema</value>
+  </data>
+  <data name="ResponseRequired" xml:space="preserve">
+    <value>Espanhol - É necessário ter o formulário respondido</value>
+  </data>
+  <data name="DistanciaRealizadaMin" xml:space="preserve">
+    <value>Espanhol - A Distância Realizada deve ser maior que zero</value>
+  </data>
+  <data name="ReadingGreaterThanMaxDigitsAllowed" xml:space="preserve">
+    <value>Espanhol - A Leitura Atual ultrapassa a quantidade máxima de dígitos</value>
+  </data>
+  <data name="Executor" xml:space="preserve">
+    <value>Espanhol - Executor</value>
+  </data>
+  <data name="NotFoundObject" xml:space="preserve">
+    <value>Espanhol - {0} não encontrado</value>
+  </data>
+  <data name="TempoIndisponibilidadePlanejado" xml:space="preserve">
+    <value>Espanhol - Tempo de Indisponibilidade Planejado</value>
+  </data>
+  <data name="TempoIndisponibilidadePrevisto" xml:space="preserve">
+    <value>Espanhol - Tempo de Indisponibilidade Previsto</value>
+  </data>
+  <data name="TempoIndisponibilidadeRealizado" xml:space="preserve">
+    <value>Espanhol - Tempo de Indisponibilidade Realizado</value>
+  </data>
+  <data name="SelectImplementationData" xml:space="preserve">
+    <value>Espanhol - Selecione uma Data de Execução</value>
+  </data>
+  <data name="SelectPlanningforImplementationData" xml:space="preserve">
+    <value>Espanhol - Selecione uma Data de Planejamento para Execução.</value>
+  </data>
+  <data name="SelectScheduled" xml:space="preserve">
+    <value>Espanhol - Selecione uma Data Prevista para Execução</value>
+  </data>
+  <data name="DataInicioOperacaoOS" xml:space="preserve">
+    <value>Espanhol - A data de início de operação da localização deve ser informada.</value>
+  </data>
+  <data name="DataServicoSuperiorInicioOperacao" xml:space="preserve">
+    <value>Espanhol - A data da ordem de serviço deve ser superior ao início de operação da localização.</value>
+  </data>
+  <data name="EmpresaPVI" xml:space="preserve">
+    <value>Espanhol - A empresa não é habilitada para PVI.</value>
+  </data>
+  <data name="InvalidLocation" xml:space="preserve">
+    <value>Espanhol - Localização Inválida</value>
+  </data>
+  <data name="LocalizacaoPVI" xml:space="preserve">
+    <value>Espanhol - A localização não é habilitada para PVI.</value>
+  </data>
+  <data name="TransmissionEquipmentFamily" xml:space="preserve">
+    <value>Espanhol - A família do equipamento de transmissão na localização deve ser informada.</value>
+  </data>
+  <data name="ComponentFieldRequerid" xml:space="preserve">
+    <value>Espanhol - Campo componente é obrigatório.</value>
+  </data>
+  <data name="WantReactivateOS" xml:space="preserve">
+    <value>Espanhol - Deseja Reativar a OS?</value>
+  </data>
+  <data name="ProgrammingSettings" xml:space="preserve">
+    <value>Espanhol - Não foi inserido as Configurações de Programação</value>
+  </data>
+  <data name="PeriodSpecialtyError" xml:space="preserve">
+    <value>Espanhol - com vigência da especialidade inválida</value>
+  </data>
+  <data name="AgendamentoErro" xml:space="preserve">
+    <value>Espanhol - já planejado nesse período</value>
+  </data>
+  <data name="ActivitiesWithPendingLaborAppointment" xml:space="preserve">
+    <value>Espanhol - Uma ou mais atividades possuem pendência de apontamento de mão de obra.</value>
+  </data>
+  <data name="DailyWork" xml:space="preserve">
+    <value>Espanhol - Diário de Obras</value>
+  </data>
+  <data name="Conjuntos" xml:space="preserve">
+    <value>Espanhol - Conjuntos</value>
+  </data>
+  <data name="DetachedActivity" xml:space="preserve">
+    <value>Espanhol - Atividade Avulsa</value>
+  </data>
+  <data name="OS" xml:space="preserve">
+    <value>Espanhol - OS</value>
+  </data>
+  <data name="PointingActivities" xml:space="preserve">
+    <value>Espanhol - Apontar Atividades</value>
+  </data>
+  <data name="ResponsableAbbreviation" xml:space="preserve">
+    <value>Espanhol - Resp.</value>
+  </data>
+  <data name="SaveView" xml:space="preserve">
+    <value>Espanhol - Salvar Visualização</value>
+  </data>
+  <data name="SaveViewSuccess" xml:space="preserve">
+    <value>Espanhol - Vizualização salva com sucesso</value>
+  </data>
+  <data name="ServiceOrderAbbreviation" xml:space="preserve">
+    <value>Espanhol - OS</value>
+  </data>
+  <data name="ServiceOrderReason" xml:space="preserve">
+    <value>Espanhol - Motiv. da OS</value>
+  </data>
+  <data name="ServiceOrderType" xml:space="preserve">
+    <value>Espanhol - Tipo de OS</value>
+  </data>
+  <data name="TechnicalAppointment" xml:space="preserve">
+    <value>Espanhol - Apontamento Técnico</value>
+  </data>
+  <data name="ContinuousPeriod" xml:space="preserve">
+    <value>Espanhol - Período Contínuo</value>
+  </data>
+  <data name="InsideOfWorking" xml:space="preserve">
+    <value>Espanhol - Dentro da Jornada de Trabalho</value>
+  </data>
+  <data name="TechnicalInformationHasActivities" xml:space="preserve">
+    <value>Espanhol - Não é possível excluir informações técnicas associadas à uma atividade</value>
+  </data>
+  <data name="MaintenancePointingActivities" xml:space="preserve">
+    <value>Espanhol - Manutenção de Apontamento de Atividades</value>
+  </data>
+  <data name="ServiceOrderActivities" xml:space="preserve">
+    <value>Espanhol - OS / Atividades</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Espanhol - Adicionar</value>
+  </data>
+  <data name="AppointedBy" xml:space="preserve">
+    <value>Espanhol - Apontado por</value>
+  </data>
+  <data name="DailyBreak" xml:space="preserve">
+    <value>Espanhol - Intervalo Diário</value>
+  </data>
+  <data name="DateTimeStart" xml:space="preserve">
+    <value>Espanhol - Data/Hora de Início</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Espanhol - Conjunto</value>
+  </data>
+  <data name="JobHours" xml:space="preserve">
+    <value>Espanhol - Horário de Trabalho</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Espanhol - Modificado por</value>
+  </data>
+  <data name="SetSchedule" xml:space="preserve">
+    <value>Espanhol - Definir Horário</value>
+  </data>
+  <data name="UnitDistance" xml:space="preserve">
+    <value>Espanhol - km</value>
+  </data>
+  <data name="ActivityWithPendingAppointment" xml:space="preserve">
+    <value>Espanhol - A atividade {0} possui pendência de apontamento de mão de obra</value>
+  </data>
+  <data name="ServiceOrderSuspended" xml:space="preserve">
+    <value>Espanhol - A ordem de serviço está suspensa</value>
+  </data>
+  <data name="ActivitiesWithoutAppointment" xml:space="preserve">
+    <value>Espanhol - Existem atividades sem apontamento</value>
+  </data>
+  <data name="ServiceOrderWithoutCompletedActivity" xml:space="preserve">
+    <value>Espanhol - Não existem atividades concluídas na Ordem de Serviço</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Espanhol - Não foi possível completar a operação. Verifique se todos os campos obrigatório foram informados</value>
+  </data>
+  <data name="CostCenterCantBeEqualOrLessThan0" xml:space="preserve">
+    <value>Espanhol - Não é possível salvar um percentual menor ou igual a 0% para o centro de custo</value>
+  </data>
+  <data name="CostCenterCantBeEqualOrLessThan0PM" xml:space="preserve">
+    <value>Espanhol - Não é possível salvar um percentual menor ou igual a 0% para o centro de custo no objeto {0} </value>
+  </data>
+  <data name="QuantityLaborCannotBeEqualsOrLessThan0" xml:space="preserve">
+    <value>Espanhol - Não é possível inserir mão de obra com quantidade igual ou menor que zero</value>
+  </data>
+  <data name="QuantityMaterialsCannotBeEqualsOrLessThan0" xml:space="preserve">
+    <value>Espanhol - Não é possível inserir materiais com quantidade igual ou menor que zero</value>
+  </data>
+  <data name="QuantitySpecialEquipmentCannotBeEqualOrLessThan0" xml:space="preserve">
+    <value>Espanhol - Não é possível inserir equipamentos especiais com quantidade igual ou menor que zero</value>
+  </data>
+  <data name="DataDeletedSuccessfullySystem" xml:space="preserve">
+    <value>Espanhol - Excluído com sucesso</value>
+  </data>
+  <data name="StatusChanged" xml:space="preserve">
+    <value>Espanhol - Status alterado com sucesso</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Espanhol - Remover</value>
+  </data>
+  <data name="DateTimeEnd" xml:space="preserve">
+    <value>Espanhol - Data/Hora de Término</value>
+  </data>
+  <data name="AppointmentOnlyDailyWork" xml:space="preserve">
+    <value>Espanhol - Alterações no apontamento só podem ser efetuadas no diário de obras</value>
+  </data>
+  <data name="DuplicateLaborSameTime" xml:space="preserve">
+    <value>Espanhol - Mão de Obra duplicada para o mesmo período</value>
+  </data>
+  <data name="Appointments" xml:space="preserve">
+    <value>Espanhol - Apontamentos</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Espanhol - Visualizar</value>
+  </data>
+  <data name="DuplicateTechnicalInformation" xml:space="preserve">
+    <value>Espanhol - Informação Técnica Duplicada</value>
+  </data>
+  <data name="TechnicalInformationInvalidAppointment" xml:space="preserve">
+    <value>Espanhol - O apontamento técnico possui dados inválidos.</value>
+  </data>
+  <data name="DuplicateContractProvider" xml:space="preserve">
+    <value>Espanhol - Serviço de Terceiros duplicado.</value>
+  </data>
+  <data name="AvisoExclusaoDiarioObraNaOS" xml:space="preserve">
+    <value>Espanhol - A mudança de fase, removera os apontamentos do Diário de obras</value>
+  </data>
+  <data name="ErrorDetachedActivityAppointment" xml:space="preserve">
+    <value>Espanhol - Não foi possível excluir '{0}', pois possui apontamento.</value>
+  </data>
+  <data name="FinalizeDetachedActivity" xml:space="preserve">
+    <value>Espanhol - Finalizar Atividade Avulsa</value>
+  </data>
+  <data name="PartialAppointment" xml:space="preserve">
+    <value>Espanhol - A manutenção dos apontamentos deve ser feita de forma parcial.</value>
+  </data>
+  <data name="HistoryCounterErrorDateLargerCurrentData" xml:space="preserve">
+    <value>Espanhol - A data  informada é maior que a data atual</value>
+  </data>
+  <data name="HistoryCounterErrorInstallationDate" xml:space="preserve">
+    <value>Espanhol - A data de leitura não pode ser inferior a data de instalação do contador</value>
+  </data>
+  <data name="DateOfInstallationLowerThenReadingDate" xml:space="preserve">
+    <value>Espanhol - A Data de Instalação não pode ser superior a data de leitura do histórico</value>
+  </data>
+  <data name="InvalidInstallationDate" xml:space="preserve">
+    <value>Espanhol - Data de Instalação Inválida</value>
+  </data>
+  <data name="ErroEstoqueMedio" xml:space="preserve">
+    <value>Espanhol - com estoque médio insuficiente</value>
+  </data>
+  <data name="EndValidityLargerCurrentDate" xml:space="preserve">
+    <value>Espanhol - Data final de fechamento não pode ser maior que a data atual</value>
+  </data>
+  <data name="StartValidityLargerCurrentDate" xml:space="preserve">
+    <value>Espanhol - Data inicial de fechamento não pode ser maior que a data atual</value>
+  </data>
+  <data name="EndOfWarrantyMustBeGreaterOrEqualToOperationDate" xml:space="preserve">
+    <value>Espanhol - A Data de Operação não pode ser superior ao Termino da Garantia.</value>
+  </data>
+  <data name="HomeWarrantyMustBeGreaterOrEqualToManufacturingDate" xml:space="preserve">
+    <value>Espanhol - O Inicio da Garantia não pode ser inferior a Data de Fabricação.</value>
+  </data>
+  <data name="OperationDateMustBeGreaterOrEqualToHomeWarranty" xml:space="preserve">
+    <value>Espanhol - A Data de Operação não pode ser inferior ao Inicio da Garantia.</value>
+  </data>
+  <data name="ServiceOrderWithNoLabor" xml:space="preserve">
+    <value>Espanhol - É obrigatório vincular um recurso de mão de obra e o apontamento do mesmo para finalizar a ordem de serviço</value>
+  </data>
+  <data name="FamilyWithoutEquipment" xml:space="preserve">
+    <value>Espanhol - Não há equipamentos cadastrados para a familia selecionada.</value>
+  </data>
+  <data name="UnidadeMedidaAbreviaturaExistente" xml:space="preserve">
+    <value>Espanhol - Já existe uma Unidade de Medida com essa Abreviatura</value>
+  </data>
+  <data name="UnidadeMedidaDescricaoExistente" xml:space="preserve">
+    <value>Espanhol - Já existe uma Unidade de Medida com essa Descrição</value>
+  </data>
+  <data name="DependentInformation" xml:space="preserve">
+    <value>Espanhol - O(s) Registro(s) não pôde ser removido por estar sendo utilizado por algum outro(s) registro(s) do sistema.</value>
+  </data>
+  <data name="RenewalPeriodicityMustBeAPositiveValue" xml:space="preserve">
+    <value>Espanhol - A Periodicidade de Renovação deve ser maior que zero</value>
+  </data>
+  <data name="WithNoValidContract" xml:space="preserve">
+    <value>Espanhol - sem contrato vigênte</value>
+  </data>
+  <data name="MascaraNomeExistente" xml:space="preserve">
+    <value>Espanhol - Já existe uma Máscara com esse Nome</value>
+  </data>
+  <data name="MascaraPrefixoExistente" xml:space="preserve">
+    <value>Espanhol - Já existe uma Máscara com esse Prefixo</value>
+  </data>
+  <data name="DayWithInvalidTime" xml:space="preserve">
+    <value>Espanhol - Existe(m) Horário(s) inválido(s) para este dia</value>
+  </data>
+  <data name="AbbreviationExistent" xml:space="preserve">
+    <value>Espanhol - Abreviatura existente!</value>
+  </data>
+  <data name="MaskAlreadyUsed" xml:space="preserve">
+    <value>Espanhol - Mascara já utilizada em outra familia!</value>
+  </data>
+  <data name="SuffixPrefixAlreadyUsed" xml:space="preserve">
+    <value>Espanhol - Já existe uma mascara com o mesmo prefixo e sufixo!</value>
+  </data>
+  <data name="ThisRecordAlreadyExist" xml:space="preserve">
+    <value>Espanhol - Já existe esse registro!</value>
+  </data>
+  <data name="TeamMemberRequired" xml:space="preserve">
+    <value>Espanhol - É necessário preencher a componente para a equipe {0}</value>
+  </data>
+  <data name="ThisCityAlreadyExists" xml:space="preserve">
+    <value>Espanhol - Já existe um Municipio com esse nome.</value>
+  </data>
+  <data name="ThisHolidatAlreadyExists" xml:space="preserve">
+    <value>Espanhol - Já existe um Feriado com esse nome.</value>
+  </data>
+  <data name="ErrorLaborScheduler" xml:space="preserve">
+    <value>Espanhol - Nenhum componente equipe ou empresa prestadora selecionada na Mão de Obra agendada</value>
+  </data>
+  <data name="SemRegistros" xml:space="preserve">
+    <value>Espanhol - Sem Registros</value>
+  </data>
+  <data name="RequiredFieldEndOfWarranty" xml:space="preserve">
+    <value>Espanhol - O campo Término Garantia é obrigatório</value>
+  </data>
+  <data name="RequiredFielOperationWarranty" xml:space="preserve">
+    <value>Espanhol - O campo Garantia em Operação é obrigatório</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Espanhol - Tipo de Documento</value>
+  </data>
+  <data name="CurrentControl" xml:space="preserve">
+    <value>Espanhol - Controle de Vigência</value>
+  </data>
+  <data name="A1" xml:space="preserve">
+    <value>Espanhol - A1</value>
+  </data>
+  <data name="ComplementaryAcronym" xml:space="preserve">
+    <value>Espanhol - Sigla Complementar</value>
+  </data>
+  <data name="InsulatedCable" xml:space="preserve">
+    <value>Espanhol - Cabo Isolado</value>
+  </data>
+  <data name="MainAcronym" xml:space="preserve">
+    <value>Espanhol - Sigla Principal</value>
+  </data>
+  <data name="MaxA2" xml:space="preserve">
+    <value>Espanhol - A2 Máximo</value>
+  </data>
+  <data name="MaxA3" xml:space="preserve">
+    <value>Espanhol - A3 Máximo</value>
+  </data>
+  <data name="MaxLengthLine" xml:space="preserve">
+    <value>Espanhol - Tamanho máximo da linha</value>
+  </data>
+  <data name="MaxLengthTension" xml:space="preserve">
+    <value>Espanhol - Linha de tensão máxima</value>
+  </data>
+  <data name="MinA2" xml:space="preserve">
+    <value>Espanhol - A2 Mínimo</value>
+  </data>
+  <data name="MinA3" xml:space="preserve">
+    <value>Espanhol - A3 Mínimo</value>
+  </data>
+  <data name="MinLengthLine" xml:space="preserve">
+    <value>Espanhol - Tamanho mínimo da linha</value>
+  </data>
+  <data name="MinLengthTension" xml:space="preserve">
+    <value>Espanhol - Linha de tensão mínima</value>
+  </data>
+  <data name="TransmissionFunction" xml:space="preserve">
+    <value>Espanhol - Função Transmissão</value>
+  </data>
+  <data name="Tuc" xml:space="preserve">
+    <value>Espanhol - TUC</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Espanhol - Departamento</value>
+  </data>
+  <data name="MalhaA" xml:space="preserve">
+    <value>Espanhol - Malha A</value>
+  </data>
+  <data name="MalhaB" xml:space="preserve">
+    <value>Espanhol - Malha B</value>
+  </data>
+  <data name="MalhaC" xml:space="preserve">
+    <value>Espanhol - Malha C</value>
+  </data>
+  <data name="ONSFamily" xml:space="preserve">
+    <value>Espanhol - Família ONS</value>
+  </data>
+  <data name="ONSGenre" xml:space="preserve">
+    <value>Espanhol - Gênero ONS</value>
+  </data>
+  <data name="NatureIntervention" xml:space="preserve">
+    <value>Espanhol - Natureza de Intervenção</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>Espanhol - Padrão</value>
+  </data>
+  <data name="Facultativo" xml:space="preserve">
+    <value>Espanhol - Facultativo</value>
+  </data>
+  <data name="Limitado" xml:space="preserve">
+    <value>Espanhol - Limitado</value>
+  </data>
+  <data name="LocalEstacionamento" xml:space="preserve">
+    <value>Espanhol - Local de Estacionamento</value>
+  </data>
+  <data name="DDD" xml:space="preserve">
+    <value>Espanhol - DDD - Graus decimais</value>
+  </data>
+  <data name="DMM" xml:space="preserve">
+    <value>Espanhol - DMM - Graus e Minutos</value>
+  </data>
+  <data name="DMS" xml:space="preserve">
+    <value>Espanhol - DMS - Graus, Minutos e Segundos</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Espanhol - Vazio</value>
+  </data>
+  <data name="ETM" xml:space="preserve">
+    <value>Espanhol - ETM - Universal Transversa de Mercador</value>
+  </data>
+  <data name="Feriados" xml:space="preserve">
+    <value>Espanhol - Feriados</value>
+  </data>
+  <data name="NumberOfRepetitions" xml:space="preserve">
+    <value>Espanhol - Nº de Repetições</value>
+  </data>
+  <data name="BusinessUsers" xml:space="preserve">
+    <value>Espanhol - Empresas Usuárias</value>
+  </data>
+  <data name="TimeWindow" xml:space="preserve">
+    <value>Espanhol - Janela de Tempo</value>
+  </data>
+  <data name="AverageForResourcesPlanning" xml:space="preserve">
+    <value>Espanhol - Média Histórica para Planejamento de Recursos</value>
+  </data>
+  <data name="UserCompanyRelationshipEquipmentError" xml:space="preserve">
+    <value>Espanhol - Empresa Usuária não pode ser removida por estar vinculado a um Equipamento Especial</value>
+  </data>
+  <data name="UserCompanyRelationshipVehicleError" xml:space="preserve">
+    <value>Espanhol - Empresa Usuária não pode ser removida por estar vinculado a um Veiculo</value>
+  </data>
+  <data name="CityHoliday" xml:space="preserve">
+    <value>Espanhol - Feriado Municipal</value>
+  </data>
+  <data name="Contingency" xml:space="preserve">
+    <value>Espanhol - Contingência</value>
+  </data>
+  <data name="NationalHoliday" xml:space="preserve">
+    <value>Espanhol - Feriado Nacional</value>
+  </data>
+  <data name="StateHoliday" xml:space="preserve">
+    <value>Espanhol - Feriado Estadual</value>
+  </data>
+</root>
