@@ -27,6 +27,8 @@ namespace ResourceCreate
             foreach (var item in args)
             {
                 folder = item;
+                if (!folder.EndsWith("\\")) folder = @folder.Replace("\"", "\\");
+
                 DirectoryInfo d = new DirectoryInfo(folder);
                 FileInfo[] Files = d.GetFiles("*.resx").Where(x => !x.Name.Contains(".en.") && !x.Name.Contains(".es.")).ToArray();
                 foreach (FileInfo file in Files)
